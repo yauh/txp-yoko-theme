@@ -1,0 +1,75 @@
+<txp:if_plugin name="aks_header" version="0.3">
+<txp:aks_header strip="1" gzip="1" />
+</txp:if_plugin>
+<txp:php>
+  function is_facebook(){
+  if(!(stristr($_SERVER["HTTP_USER_AGENT"],'facebook') === FALSE))
+  return true;
+  }
+</txp:php>
+<!DOCTYPE html>
+
+<html dir="ltr" lang="en-US">
+
+<head>
+<txp:output_form form="yoko_variable_header" />
+<txp:output_form form="yoko_social_header" />
+
+<meta charset="UTF-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+<txp:if_individual_article><txp:smd_canonical /></txp:if_individual_article>
+<link rel="home" href="<txp:site_url />" />
+
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+
+<link rel="stylesheet" type="text/css" media="screen" href="<txp:css name="yoko_style" />" />
+
+<!--[if lt IE 9]>
+
+<script src="<txp:site_url />/tpl/yoko/assets/js/html5.js" type="text/javascript"></script>
+
+<![endif]-->
+
+<script type="text/javascript"
+ src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+
+<meta name='robots' content='noindex,nofollow' /> 
+<link rel='index' title='<txp:site_name />' href='<txp:site_url />' /> 
+<meta name="generator" content="Textpattern" /> 
+<link rel="canonical" href="<txp:if_individual_article><txp:permlink /><txp:else /><txp:if_section name=",default"><txp:site_url /><txp:else /><txp:site_url /><txp:section /></txp:if_section></txp:if_individual_article>" /><txp:if_individual_article>
+<txp:if_keywords><meta name="keywords" content="<txp:keywords />" /></txp:if_keywords>
+
+<txp:else />
+
+<meta name="keywords" content="<txp:variable name="meta_keywords" />" />
+
+</txp:if_individual_article>
+
+<link rel="icon" href="<txp:site_url />favicon.ico" type="x-icon" />
+
+<txp:if_variable name="feedburner_name" value=''>
+<txp:feed_link flavor="atom" format="link" label="Atom" section="" />
+<txp:feed_link flavor="rss" format="link" label="RSS" section="" />
+<txp:else />
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="http://feeds.feedburner.com/<txp:variable name="feedburner_name" />" />
+</txp:if_variable>
+
+<style type="text/css">
+
+a {color: #009BC2!important;}
+
+#content .single-entry-header h1.entry-title {color: #009BC2!important;}
+
+input#submit:hover {background-color: #009BC2!important;}
+
+#content .page-entry-header h1.entry-title {color: #009BC2!important;}
+
+.searchsubmit:hover {background-color: #009BC2!important;}
+
+</style>
+
+<title><txp:if_status><txp:if_article_list><txp:if_category><txp:category title="1" /> category listing <txp:page_url type="pg" /> &shy; <txp:site_name /><txp:else /><txp:if_section name=",default"><txp:site_name /><txp:else /><txp:section title="1" /> <txp:page_url type="pg" /> &shy; <txp:site_name /></txp:if_section></txp:if_category></txp:if_article_list><txp:if_individual_article><txp:title /> &shy; <txp:section title="1" /> &shy; <txp:site_name /></txp:if_individual_article><txp:else /><txp:site_name />: <txp:error_status /></txp:if_status></title>
+
+</head>

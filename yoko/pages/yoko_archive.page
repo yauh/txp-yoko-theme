@@ -1,0 +1,42 @@
+<txp:output_form form="yoko_htmlhead" />
+
+<!-- fix this -->
+<body class="archive date">
+
+<div id="page" class="clearfix">
+
+<txp:output_form form="yoko_header" />
+
+<div id="wrap">
+
+<div id="main">
+
+<div id="content">
+
+<h2>Archives</h2>
+
+<txp:rss_suparchive section="articles" showsection="0" showsubdate="1" />
+
+<div class="clear"></div>				
+
+<txp:output_form form="yoko_navbelow" />				
+
+</div><!-- end content -->
+
+<txp:output_form form="yoko_sidebar1" />
+
+</div><!-- end main -->
+
+<txp:output_form form="yoko_sidebar2" />
+
+</div><!-- end wrap -->
+
+<txp:output_form form="yoko_footer" />
+
+</div><!-- end page -->
+
+<txp:output_form form="yoko_javascript" />
+
+</body>
+
+</html>

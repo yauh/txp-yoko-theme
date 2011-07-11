@@ -1,0 +1,8 @@
+name=articles
+page=yoko_default
+css=yoko_style
+is_default=1
+in_rss=1
+on_frontpage=1
+searchable=1
+title=Articles

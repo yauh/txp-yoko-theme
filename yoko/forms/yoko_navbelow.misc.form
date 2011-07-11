@@ -1,0 +1,7 @@
+<nav id="nav-below">
+<txp:if_individual_article>
+	<div class="nav-previous"><txp:link_to_prev>&larr;  Previous Post</txp:link_to_prev></div>
+
+	<div class="nav-next"><txp:link_to_next>Next Post &rarr;</txp:link_to_next></div>
+</txp:if_individual_article>
+</nav><!-- end nav-below -->

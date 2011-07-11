@@ -1,0 +1,37 @@
+<txp:output_form form="yoko_htmlhead" />
+
+<!-- fix this -->
+<body class="page page-template page-template-full-width-page-php">
+
+<div id="page" class="clearfix">
+
+<txp:output_form form="yoko_header" />
+
+<div id="wrap">
+
+<div id="content" class="full-width"> 
+
+<txp:article form="yoko_single" limit="1" pgonly="0" />
+
+<div class="clear"></div>				
+
+<div id="comments" class="clearfix">
+
+</div>
+<!-- end comments -->
+
+<txp:output_form form="yoko_navbelow" />				
+
+</div><!-- end content -->
+
+</div><!-- end wrap -->
+
+<txp:output_form form="yoko_footer" />
+
+</div><!-- end page -->
+
+<txp:output_form form="yoko_javascript" />
+
+</body>
+
+</html>

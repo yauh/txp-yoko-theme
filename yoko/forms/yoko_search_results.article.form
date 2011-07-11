@@ -1,0 +1,30 @@
+<article id="post-<txp:article_id />" class="post-<txp:article_id /> post type-post status-publish format-standard hentry">
+	<div class="entry-details">
+				<txp:permlink><txp:article_image width="150" height="150" class="attachment-thumbnail" /></txp:permlink>
+<p><txp:posted /><br/>
+		by <txp:author /><br/>
+		<txp:gho_comments_invite zero="No Comments" one=" Comment" more=" Comments" /></p>
+	</div><!-- end entry-details -->
+    
+	<header class="entry-header">
+			<h2 class="entry-title"><txp:permlink><txp:title /></txp:permlink></h2>
+	</header><!-- end entry-header -->
+        
+	<div class="entry-content">
+	
+<txp:search_result_excerpt />
+
+<p><txp:permlink>Read more...</txp:permlink></p>
+								
+				
+		<footer class="entry-meta">
+			<p>			Categories: <txp:chh_if_data><txp:category1 title="1" link="1" /></txp:chh_if_data><txp:chh_if_data>, <txp:category2 title="1" link="1" /></txp:chh_if_data> |
+									<txp:chh_if_data> Tags: <txp:tru_tags_from_article /> | </txp:chh_if_data>
+
+<txp:permlink>Permalink</txp:permlink>
+						
+			</p>
+	</footer><!-- end entry-meta -->
+	</div><!-- end entry-content -->
+			
+</article><!-- end post-<txp:article_id /> -->

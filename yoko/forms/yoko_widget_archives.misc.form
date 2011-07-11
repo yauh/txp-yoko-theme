@@ -1,0 +1,6 @@
+<txp:aks_cache id='archives'>
+<aside id="archives" class="widget widget_archive">
+	<h3 class="widget-title">Archives</h3>
+	<txp:rss_suparchive_menu section="articles" showcount="1" linktosection="archive" />
+</aside>
+</txp:aks_cache>

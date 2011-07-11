@@ -1,0 +1,25 @@
+<header class="page-entry-header"> 
+		<h1 class="entry-title">Contact</h1> 
+	</header><!--end page-entry-hader--> 
+
+<div class="single-entry-content">
+		<p>Do you have a question or some remarks about my site? Use the contact form below and send it my way!</p>
+<div class="wpcf7" id="wpcf7-f1-p689-o1">
+
+<h3 id="form-title">Contact Form</h3>
+<txp:zem_contact to='<txp:variable name="contact_form_email" />' label="" subject="Contact from </txp:site_name />" thanks="Thank you, your message has been sent.">
+
+<p><txp:zem_contact_text label="Name" /></p>
+
+<p><txp:zem_contact_email label="E-Mail" /></p>
+
+<p class="textarea"><txp:zem_contact_textarea label="Message" break="" /></p>
+<txp:zem_contact_serverinfo name="REMOTE_ADDR" label="IP number" />
+<txp:zem_contact_serverinfo name="HTTP_USER_AGENT" label="Browser" />
+<p><txp:zem_contact_submit /></p>
+
+<div class="fix"></div>
+
+<div class="wpcf7-response-output wpcf7-display-none"></div></txp:zem_contact></div>
+		<div class="clear"></div>
+</div>

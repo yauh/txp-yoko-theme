@@ -1,0 +1,4 @@
+Follow this link to subscribe to the article "<txp:title />"
+<txp:phq_subscribe_url />
+
+You can read the article on <txp:permlink />.

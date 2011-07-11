@@ -1,0 +1,11 @@
+<div id="secondary" class="widget-area" role="complementary">
+
+<txp:output_form form="yoko_widget_sociallinks" />
+
+<txp:output_form form="yoko_widget_recentposts" />
+
+<txp:output_form form="yoko_widget_categories" />
+
+<txp:output_form form="yoko_widget_blogroll" />
+
+</div><!-- #secondary .widget-area -->

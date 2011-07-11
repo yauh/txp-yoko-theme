@@ -1,0 +1,10 @@
+<script>
+  (function(){
+  document.write('<p class="tweetthis"><a href="http://twitter.com/share" class="twitter-share-button" data-url="<txp:permlink />" data-count="horizontal" data-via="<txp:variable name="twitter_name" />">Tweet</a></p>');
+  var s = document.createElement('SCRIPT'), s1 = document.getElementsByTagName('SCRIPT')[0];
+  s.type = 'text/javascript';
+  s.async = true;
+  s.src = 'http://platform.twitter.com/widgets.js';
+  s1.parentNode.insertBefore(s, s1);
+  })();
+</script>

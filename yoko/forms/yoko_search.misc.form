@@ -1,0 +1,17 @@
+delete me
+<txp:hide>
+<txp:if_search>
+    <txp:article searchform="yoko_search_results" />
+
+    <txp:if_search_results>
+<h1 class="page-title"><txp:search_result_count /> Search Results for: <span><txp:search_term /></span></h1>
+				</header><!--end page-header-->
+<txp article />
+    <txp:else />
+
+      <header class="page-header">
+					<h1 class="page-title"><txp:search_result_count /> Search Results for: <span><txp:search_term /></span></h1>
+				</header><!--end page-header-->
+
+</txp:if_search_results>
+</txp:hide>

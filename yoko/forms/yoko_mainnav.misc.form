@@ -1,0 +1,12 @@
+<txp:aks_cache id='mainnav'>
+<nav id="mainnav" class="clearfix">
+
+	<div class="menu">
+		<ul>
+			<txp:section_list include_default="0" break="" exclude="home,tag" >
+		<li><txp:section link="1" title="1" /></li>
+		</txp:section_list>
+		</ul>
+	</div> 
+</nav><!-- end mainnav -->
+</txp:aks_cache>

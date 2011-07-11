@@ -1,0 +1,8 @@
+<aside id="recent-posts" class="widget widget_recent_entries">
+	<h3 class="widget-title">Recent Posts</h3>
+	<ul>
+		<txp:article_custom section='articles' limit='6'>
+			<li><txp:permlink><txp:title /></txp:permlink></li>
+		</txp:article_custom>
+	</ul>
+</aside>

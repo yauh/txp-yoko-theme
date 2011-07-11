@@ -1,0 +1,13 @@
+	<div class="author-info">
+<txp:if_plugin name="smd_bio" version="0.3">
+
+<img src="/images/<txp:smd_bio_info items="author_image" label="" />.jpg" size="70" class="avatar avatar-70 photo"  />
+		<div class="author-description">
+		<h3>Author: <txp:author link="1" /></h3>
+		<p>   <txp:smd_bio_info items="author_bio" label="" />
+</p>
+</txp:if_plugin>		
+</div><!-- end author-description -->
+
+
+

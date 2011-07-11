@@ -1,0 +1,25 @@
+	<div id="respond">
+		<h3 id="reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="<txp:permlink />#respond" style="display:none;">Cancel reply</a></small></h3>
+			<p class="comment-notes">
+				Required fields are marked <span class="required">*</span>.<br />
+				<a id="txpCommentHelpLink" href="http://rpc.textpattern.com/help/index.php?item=textile_comments&amp;language=en-gb" onclick="window.open(this.href, 'popupwindow', 'width=420,height=380,left=50,top=50,scrollbars,resizable'); return false;">Textile Help</a><txp:if_comments_error><br />
+  <txp:comments_error break="li" wraptag="ul" />
+</txp:if_comments_error>
+			</p>
+			<p class="comment-form-author">
+				<label for="author">Name</label><span class="required">*</span><txp:comment_name_input />
+			</p>
+			<p class="comment-form-email">
+				<label for="email">Email</label><span class="required">*</span><txp:comment_email_input />
+			</p>
+			<p class="comment-form-url">
+				<label for="url">Website</label><txp:comment_web_input /></p>
+			</p>
+			<p class="comment-form-comment">
+				<label for="comment">Message <span class="required">*</span></label><br/><txp:comment_message_input /></textarea>
+			</p>
+			<p class="form-submit">
+				<txp:comment_preview /> <txp:comment_submit />
+			</p>
+	</div>
+	<!-- #respond -->

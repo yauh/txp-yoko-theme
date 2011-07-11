@@ -1,0 +1,9 @@
+<script type='text/javascript' src='/tpl/yoko/assets/js/smoothscroll.js'></script> 
+
+<script type="text/javascript" src="http://apis.google.com/js/plusone.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    // This is more like it!
+  });
+</script>

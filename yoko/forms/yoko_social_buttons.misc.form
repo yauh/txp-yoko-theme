@@ -1,0 +1,10 @@
+<div class="social-btn-bottom">
+			<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="<txp:variable name="twitter_name" />">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+
+<txp:hide>
+<!-- Facebook button does not work for some reason. The code should work though, you can remove the txp:hide tags if you want to try if it works for you -->
+<iframe src="http://www.facebook.com/plugins/like.php?href=<txp:permlink />&amp;layout=button_count&amp;show_faces=false&amp;width=120&amp;action=like&amp;colorscheme=light" scrolling="no" frameborder="0" allowtransparency="true" style="border:none; overflow:hidden; width:120px; float:left; height:21px"></iframe>
+</txp:hide>
+			<g:plusone size="medium"></g:plusone>
+		</div>
+<!-- end social-btns-bottom -->

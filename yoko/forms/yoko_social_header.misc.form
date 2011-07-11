@@ -1,0 +1,9 @@
+<txp:if_variable name="is_facebook" value="">
+  <meta property="og:title" content="<txp:title no_widow='0' />"> 
+<meta property="og:description" content="<txp:custom_field name='meta_description' />">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="<txp:site_url /><txp:variable name="site_logo" />">
+  <meta property="og:url" content="<txp:site_url /><txp:page_url />">
+  <meta property="og:site_name" content="<txp:site_name />">
+  <meta property="fb:appid" content="<txp:variable name="facebook_application_id" />">
+</txp:if_variable>

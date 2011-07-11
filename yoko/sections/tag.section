@@ -1,0 +1,8 @@
+name=tag
+page=yoko_default
+css=yoko_style
+is_default=0
+in_rss=0
+on_frontpage=0
+searchable=0
+title=Tag

@@ -1,0 +1,1 @@
+<txp:pax_grep from="'\s|\t|\r|\n'" to=""><txp:output_form form="yoko_theme_variables" /></txp:pax_grep>

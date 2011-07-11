@@ -1,0 +1,10 @@
+<aside id="search" class="widget widget_search">
+	<h3 class="widget-title">Search</h3>
+	<form method="get" class="searchform" id="searchform" action="<txp:site_url />" role="search">
+		<div>
+			<label class="screen-reader-text" for="s"></label>
+			<input type="text" class="search-input" name="q" id="s" name="s" />
+			<input class="searchsubmit" type="submit" value="Search" />
+		</div>
+	</form>
+</aside>

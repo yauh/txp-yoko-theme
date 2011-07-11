@@ -1,0 +1,15 @@
+<div id="tertiary" class="widget-area" role="complementary">
+
+<txp:output_form form="yoko_widget_search" />
+
+<txp:output_form form="yoko_widget_text" />
+
+<txp:output_form form="yoko_widget_recentcomments" />
+
+<txp:output_form form="yoko_widget_tagcloud" />
+
+<txp:output_form form="yoko_widget_flickr" />
+
+<txp:output_form form="yoko_widget_archives" />
+
+</div><!-- end tertiary .widget-area -->

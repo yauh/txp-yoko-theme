@@ -1,0 +1,10 @@
+	<h3 id="comments-title"><txp:gho_comments_invite zero="No Comments" one=" Comment" more=" Comments" /></h3>
+
+	<p class="write-comment-link">
+		<a href="#respond">Leave a reply &rarr;</a>
+	</p>
+
+<ol class="commentlist">
+	<txp:comments form="yoko_comments" />
+
+</ol>

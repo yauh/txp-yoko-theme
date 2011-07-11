@@ -1,0 +1,38 @@
+<aside id="social_links" class="widget widget_social_links">
+	<h3 class="widget-title">Social</h3>
+	<ul>
+   <txp:if_variable name="feedburner_name" value="">
+	<li class="widget_sociallinks"><a href="<txp:site_url />rss" class="rss">RSS</a></li>
+<txp:else />
+	<li class="widget_sociallinks"><a href="http://feeds.feedburner.com/<txp:variable name="feedburner_name" />" class="rss">Feedburner</a></li>
+</txp:if_variable>
+<txp:chh_if_data>
+	<li class="widget_sociallinks"><a href="<txp:variable name="delicious_link" />" class="delicious">Delicious</a></li>
+</txp:chh_if_data>
+<txp:chh_if_data>
+	<li class="widget_sociallinks"><a href="<txp:variable name="facebook_link" />" class="facebook">Facebook</a></li>
+</txp:chh_if_data>
+<txp:chh_if_data>
+	<li class="widget_sociallinks"><a href="<txp:variable name="flickr_link" />" class="flickr">Flickr</a></li>
+</txp:chh_if_data>
+<txp:chh_if_data>
+	<li class="widget_sociallinks"><a href="<txp:variable name="googleplus_link" />" class="gplus">Google+</a></li>
+</txp:chh_if_data>
+<txp:chh_if_data>
+	<li class="widget_sociallinks"><a href="<txp:variable name="lastfm_link" />" class="lastfm">Last.FM</a></li>
+</txp:chh_if_data>
+<txp:chh_if_data>
+	<li class="widget_sociallinks"><a href="<txp:variable name="linkedin_link" />" class="linkedin">LinkedIn</a></li>
+</txp:chh_if_data>
+<txp:chh_if_data>
+	<li class="widget_sociallinks"><a href="http://twitter.com/<txp:variable name="twitter_name" />" class="twitter">Twitter</a></li>
+</txp:chh_if_data>
+<txp:chh_if_data>
+	<li class="widget_sociallinks"><a href="<txp:variable name="vimeo_link" />" class="vimeo">Vimeo</a></li>
+</txp:chh_if_data>
+<txp:chh_if_data>
+	<li class="widget_sociallinks"><a href="<txp:variable name="youtube_link" />" class="youtube">YouTube</a></li>
+</txp:chh_if_data>
+	</ul>
+
+</aside>

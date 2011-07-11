@@ -1,0 +1,8 @@
+<txp:aks_cache id='tagcloud'>
+<aside id="tag_cloud" class="widget widget_tag_cloud">
+	<h3 class="widget-title">Tags</h3>
+	<div class="tagcloud">
+		<txp:tru_tags_cloud minpercent='75' maxpercent='120'/>
+	</div>
+</aside>
+</txp:aks_cache>

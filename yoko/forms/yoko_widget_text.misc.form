@@ -1,0 +1,6 @@
+<aside id="text" class="widget widget_text">
+	<h3 class="widget-title">About this site</h3>
+	<div class="textwidget">
+		Welcome to my site. You can read my <a href="<txp:site_url />articles">articles</a> or <a href="<txp:site_url />contact">contact</a> me.<br />Enjoy your stay on <txp:site_name />.
+	</div>
+</aside>

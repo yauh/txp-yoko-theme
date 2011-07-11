@@ -1,0 +1,29 @@
+<article id="post-<txp:article_id />" class="post-<txp:article_id /> post type-post status-publish format-standard hentry">
+
+<div class="single-entry-details">
+			<txp:permlink><txp:article_image width="150" height="150" class="attachment-thumbnail wp-post-image" /></txp:permlink>
+		</div><!-- end single-entry-details -->
+
+	<header class="single-entry-header">
+	
+			<h2 class="entry-title"><txp:permlink><txp:title /></txp:permlink></h2>
+				<p><span class="entry-date"><txp:posted /></span> <span class="entry-author">by <txp:author /></span>  |<txp:gho_comments_invite zero="No Comments" one=" Comment" more=" Comments" /></p>
+				   
+	</header><!-- end single-entry-header -->
+<txp:output_form form="yoko_social_buttons_top" />
+	<div class="single-entry-content">
+	<txp:body />	
+								
+				
+		<footer class="single-entry-meta">
+			<p>			Categories: <txp:chh_if_data><txp:category1 title="1" link="1" /></txp:chh_if_data><txp:chh_if_data>, <txp:category2 title="1" link="1" /></txp:chh_if_data> |
+									<txp:chh_if_data> Tags: <txp:tru_tags_from_article /> | </txp:chh_if_data>
+
+<txp:permlink>Permalink</txp:permlink>
+						
+			</p>
+	</footer><!-- end single-entry-meta -->
+<txp:output_form form="yoko_authorinfo" />
+	</div><!-- end single-entry-content -->
+<txp:output_form form="yoko_social_buttons" />			
+</article><!-- end post-<txp:article_id /> -->

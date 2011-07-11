@@ -1,0 +1,49 @@
+<txp:output_form form="yoko_htmlhead" />
+
+<!-- fix this -->
+<body class="error404">
+
+<div id="page" class="clearfix">
+
+<txp:output_form form="yoko_header" />
+
+<div id="wrap">
+
+<div id="main">
+
+<div id="content">
+
+<h1 class="error-status"><txp:error_status /></h1>
+<p class="error-msg">Apologies, but the page you requested could not be found. Perhaps searching will help.</p>
+
+<form method="get" class="searchform" id="searchform" action="<txp:site_url />" role="search">
+		<div>
+			<label class="screen-reader-text" for="s"></label>
+			<input type="text" class="search-input" name="q" id="s" name="s" />
+			<input class="searchsubmit" type="submit" value="Search" />
+		</div>
+	</form>
+
+<div class="clear"></div>				
+
+<txp:output_form form="yoko_navbelow" />				
+
+</div><!-- end content -->
+
+<txp:output_form form="yoko_sidebar1" />
+
+</div><!-- end main -->
+
+<txp:output_form form="yoko_sidebar2" />
+
+</div><!-- end wrap -->
+
+<txp:output_form form="yoko_footer" />
+
+</div><!-- end page -->
+
+<txp:output_form form="yoko_javascript" />
+
+</body>
+
+</html>

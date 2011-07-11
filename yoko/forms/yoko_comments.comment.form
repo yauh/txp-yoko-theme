@@ -1,0 +1,17 @@
+<li class="comment" id="li-comment-<txp:comment_id />">
+		<div id="comment-<txp:comment_id />">
+			<div class="comment-gravatar">
+				<txp:glx_gravatar email='<txp:comment_email />' size="65" class="avatar avatar-65 photo avatar-default" default="http://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=65" />
+			</div>
+			<div class="comment-body">
+				<div class="comment-meta commentmetadata">
+					<cite class="fn"><txp:comment_name /></cite><br/>
+					<txp:comment_permlink><txp:comment_time /></txp:comment_permlink>
+				</div>
+				<!-- .comment-meta .commentmetadata -->
+				<txp:comment_message />
+			</div>
+			<!--comment Body-->
+		</div>
+		<!-- #comment-##  -->
+		</li>
