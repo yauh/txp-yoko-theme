@@ -12,6 +12,7 @@
 <txp:variable name="feedburner_name" value='' />
 <txp:variable name="meta_keywords" value='textpattern, blog, website' />
 <txp:variable name="show_category_menu(yes_or_no)" value='yes' />
+<txp:variable name="number_of_links_in_sidebar" value ='5' />
 <txp:variable name="contact_form_email" value='mail@example.com' />
 <txp:variable name="preview_highlight_color" value='#FF0' />
 <txp:variable name="site_logo" value='tpl/yoko/assets/images/headers/ginko.jpg' />

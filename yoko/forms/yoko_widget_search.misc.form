@@ -3,7 +3,7 @@
 	<form method="get" class="searchform" id="searchform" action="<txp:site_url />" role="search">
 		<div>
 			<label class="screen-reader-text" for="s"></label>
-			<input type="text" class="search-input" name="q" id="s" name="s" />
+			<input type="text" class="search-input" name="q" id="s" />
 			<input class="searchsubmit" type="submit" value="Search" />
 		</div>
 	</form>

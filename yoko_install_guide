@@ -1,0 +1,21 @@
+Get and install cxc_tempplates
+
+Create two directories:
+
+<public_root>/tpl
+<public_root>/textpattern/tmp
+
+upload the extracted yoko folder
+
+Import using the extension tab
+
+TXP Preferences
+- Site name and slogan
+- Production Status
+- Timezone
+- (Archive) Date Format
+- Permanent Links to id/title
+- Logging
+
+
+Configure smd_bio (bio config)
