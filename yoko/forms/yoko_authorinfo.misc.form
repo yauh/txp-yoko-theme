@@ -1,13 +1,13 @@
 	<div class="author-info">
-<txp:if_plugin name="smd_bio" version="0.3">
+<txp:if_plugin name="smd_bio" version="0.4">
 
-<txp:smd_bio_info items="author_image" label="">
-   <txp:image id="{smd_bio_author_image}" size="70" class="avatar avatar-70 photo" />
+<txp:smd_bio_info fields="author_image" label="">
+   <txp:image id="{smd_bio_author_image}" width="70" class="avatar avatar-70 photo" />
 </txp:smd_bio_info>
 
 		<div class="author-description">
 		<h3>Author: <txp:author link="1" /></h3>
-		<p>   <txp:smd_bio_info items="author_bio" label="" />
+		<p>   <txp:smd_bio_info fields="author_bio" label="" />
 </p>
 </txp:if_plugin>		
 </div><!-- end author-description -->
