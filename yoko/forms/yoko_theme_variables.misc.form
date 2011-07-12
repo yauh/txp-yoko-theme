@@ -8,8 +8,8 @@
 <txp:variable name="vimeo_link" value='http://vimeo.com' />
 <txp:variable name="youtube_link" value='http://youtube.com' />
 <txp:variable name="linkedin_link" value='http://linkedin.com' />
-<txp:variable name="delicious_link" value='http:/del.icio.us' />
-<txp:variable name="lastfm_link" value='http:/last.fm' />
+<txp:variable name="delicious_link" value='http://del.icio.us' />
+<txp:variable name="lastfm_link" value='http://last.fm' />
 <txp:variable name="feedburner_name" value='' />
 <txp:variable name="meta_keywords" value='textpattern, blog, website' />
 <txp:variable name="show_category_menu(yes_or_no)" value='yes' />
