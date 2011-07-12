@@ -28,6 +28,6 @@
 						
 			</p>
 	</footer><!-- end entry-meta -->
+<txp:output_form form="yoko_social_buttons" />	
 	</div><!-- end entry-content -->
-			
 </article><!-- end post-<txp:article_id /> -->
