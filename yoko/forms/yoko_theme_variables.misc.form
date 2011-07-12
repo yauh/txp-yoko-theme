@@ -1,4 +1,5 @@
 <txp:variable name="header_image_name" value='tpl/yoko/assets/images/headers/ginko.jpg' />
+<txp:variable name="site_logo" value='tpl/yoko/assets/images/headers/ginko.jpg' />
 <txp:variable name="googleplus_link" value='http://google.com' />
 <txp:variable name="twitter_name" value='' />
 <txp:variable name="facebook_link" value='http://facebook.com' />
@@ -15,7 +16,7 @@
 <txp:variable name="number_of_links_in_sidebar" value ='5' />
 <txp:variable name="contact_form_email" value='mail@example.com' />
 <txp:variable name="preview_highlight_color" value='#FF0' />
-<txp:variable name="site_logo" value='tpl/yoko/assets/images/headers/ginko.jpg' />
+<txp:variable name="custom_link_color" value='#009BC2' />
 <txp:variable name="facebook_application_id" value='' />
 <txp:variable name="addthis_user" value='' />
 <txp:variable name="addthis_brand" value='' />
