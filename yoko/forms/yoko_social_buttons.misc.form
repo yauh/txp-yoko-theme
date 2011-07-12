@@ -3,7 +3,7 @@
 
 <g:plusone size="medium"></g:plusone>
 
-<iframe src="http://www.facebook.com/plugins/like.php?href=<txp:sho_urlencode><txp:permlink /></txp:sho_urlencode>&amp;layout=button_count&amp;show_faces=false&amp;width=120&amp;action=like&amp;colorscheme=light" scrolling="no" frameborder="0" allowtransparency="true" style="border:none; overflow:hidden; width:120px; float:left; height:21px"></iframe>
+<iframe src="http://www.facebook.com/plugins/like.php?href=<txp:sho_rawurlencode><txp:permlink /></txp:sho_rawurlencode>&amp;layout=button_count&amp;show_faces=false&amp;width=120&amp;action=like&amp;colorscheme=light" scrolling="no" frameborder="0" allowtransparency="true" style="border:none; overflow:hidden; width:120px; float:left; height:21px"></iframe>
 
 		</div>
 <!-- end social-btns-bottom -->
