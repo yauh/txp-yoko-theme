@@ -2,6 +2,6 @@
 	<h3 class="widget-title">Recent Comments</h3>
 	<txp:recent_comments limit="5" wraptag="ul" class="sidebar-comments" break="li" >
 <txp:glx_gravatar email='<txp:comment_email />' size="30" class="kjgrcGravatar" default="http://www.gravatar.com/avatar.php?gravatar_id=5f89bc2c7806f1b79616de3db6930583&amp;size=30&amp;rating=G" />
-<div class="comment-content"><p><span class="sidebar-comment-author"><txp:comment_permlink /><txp:comment_name /></span></p></div>
+<div class="comment-content"><p><span class="sidebar-comment-author"><txp:comment_permlink><txp:comment_name link="0" /></txp:comment_permlink></span></p></div>
 </txp:recent_comments>
 </aside>
