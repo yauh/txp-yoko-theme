@@ -28,6 +28,7 @@
 						
 			</p>
 	</footer><!-- end entry-meta -->
-<txp:output_form form="yoko_social_buttons" />	
+<txp:output_form form="yoko_authorinfo" />
 	</div><!-- end entry-content -->
+<txp:output_form form="yoko_social_buttons" />	
 </article><!-- end post-<txp:article_id /> -->
