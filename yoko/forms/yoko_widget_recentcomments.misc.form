@@ -1,3 +1,4 @@
+<txp:aks_cache id='recentcommentsaside'>
 <aside id="recent-comments" class="widget widget_recent_comments widget_get_recent_comments">
 	<h3 class="widget-title">Recent Comments</h3>
 	<txp:recent_comments limit="5" wraptag="ul" class="sidebar-comments" break="li" >
@@ -5,3 +6,4 @@
 <div class="comment-content"><p><span class="sidebar-comment-author"><txp:comment_permlink><txp:comment_name link="0" /></txp:comment_permlink></span></p></div>
 </txp:recent_comments>
 </aside>
+</txp:aks_cache>

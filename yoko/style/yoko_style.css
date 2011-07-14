@@ -1056,6 +1056,15 @@ aside.widget ul li:last-child {
 .widget_sociallinks a.gplus {
 	background:url(tpl/yoko/assets/images/gplus-icon.png) 0 0 no-repeat;
 }
+.widget_sociallinks a.github {
+	background:url(tpl/yoko/assets/images/github-icon.png) 0 0 no-repeat;
+}
+.widget_sociallinks a.tumblr {
+	background:url(tpl/yoko/assets/images/tumblr-icon.gif) 0 0 no-repeat;
+}
+.widget_sociallinks a.stellar {
+	background:url(tpl/yoko/assets/images/stellar-icon.png) 0 0 no-repeat;
+}
 /* --- Recent Comments Widget --- */
 .widget_get_recent_comments li.sidebar-comment {
 	margin:10px 0;

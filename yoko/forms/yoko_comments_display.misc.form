@@ -1,18 +1,21 @@
 <div id="comments" class="clearfix">
-	<h3 id="comments-title"><txp:gho_comments_invite zero="No Comments" one=" Comment" more=" Comments" /></h3>
+	<h3 id="comments-title"><txp:gho_comments_invite zero="No Comments" one=" comment" more=" comments"/></h3>
 	<p class="write-comment-link">
 		<a href="#respond">Leave a reply &rarr;</a>
 	</p>
-
-<ol class="commentlist">
-	<txp:comments form="yoko_comments" />
-
-<txp:if_comments_preview>
-<div id="cpreview" <txp:chh_if_data>style="background-color:<txp:variable name="preview_highlight_color" />"</txp:chh_if_data>><h5>Preview:</h5><p>The following is only a preview. Please re-read your comment for clarity and hit submit once you approve of it.</p>
-<txp:comments_preview form="yoko_comments" />
-</div>
-</txp:if_comments_preview>
-<txp:comments_form form="yoko_comment_form" />
-</div>
-<!-- end comments -->
+	<ol class="commentlist">
+		<txp:comments form="yoko_comments"/>
+		<txp:if_comments_preview>
+		<div id="cpreview" <txp:chh_if_data>
+			style="background-color:<txp:variable name="preview_highlight_color"/>"</txp:chh_if_data>>
+			<h5>Preview:</h5>
+			<p>
+				The following is only a preview. Please re-read your comment for clarity and hit submit once you approve of it.
+			</p>
+			<txp:comments_preview form="yoko_comments"/>
+		</div>
+		</txp:if_comments_preview>
+		<txp:comments_form form="yoko_comment_form"/>
+	</div>
+	<!-- end comments -->
 </ol>

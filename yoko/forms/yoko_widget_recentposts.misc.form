@@ -1,3 +1,4 @@
+<txp:aks_cache id='recentpostsaside'>
 <aside id="recent-posts" class="widget widget_recent_entries">
 	<h3 class="widget-title">Recent Posts</h3>
 	<ul>
@@ -6,3 +7,4 @@
 		</txp:article_custom>
 	</ul>
 </aside>
+</txp:aks_cache>
