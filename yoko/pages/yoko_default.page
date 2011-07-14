@@ -32,13 +32,13 @@
 <txp:else />
 
 <txp:if_individual_article>
-<txp:article form="yoko_sticky_articles" limit="1" pgonly="0" status="sticky" />
+<txp:article form="yoko_single" limit="1" pgonly="0" status="sticky" />
 <txp:article form="yoko_single" limit="1" pgonly="0" status="live"/>
 </txp:if_individual_article>
 
 <txp:if_article_list>
 <txp:article form="yoko_sticky_articles" limit="1" status="sticky" pgonly="0" />
-<txp:article form="yoko_articles" limit="5" pgonly="0" />
+<txp:article form="yoko_articles" limit="<txp:variable name="number_of_articles on frontpage" />" pgonly="0" />
 </txp:if_article_list>
 
 </txp:if_search>
