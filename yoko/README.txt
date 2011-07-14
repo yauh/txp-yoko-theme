@@ -31,10 +31,8 @@ optimized for mobile devices such as tablet pcs and smartphones</li>
 <li>Beta 3 - 14th July 2011
 <ul>
 <li>included lots of smaller fixes</li>
-<li>updated smd_bio to 0.40</li>
-<li>added plugin rss_auto_excerpt for OpenGraph fixing</li>
-<li>added plugin etz_striptags to fix OpenGraph</li>
-<li>Updated README.txt to HTML format</li>
+<li>re-ordered theme options</li>
+<li>updated documentation</li>
 </ul>
 </li>
 <ul>
