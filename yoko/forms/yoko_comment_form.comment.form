@@ -7,20 +7,20 @@
 		</txp:if_comments_error>
 	</p>
 	<p class="comment-form-author">
-		<label for="author">Name</label><span class="required">*</span><txp:comment_name_input/>
+		<label for="author">Name</label><span class="required">*</span><txp:comment_name_input />
 	</p>
 	<p class="comment-form-email">
-		<label for="email">Email</label><span class="required">*</span><txp:comment_email_input/>
+		<label for="email">Email</label><span class="required">*</span><txp:comment_email_input />
 	</p>
 	<p class="comment-form-url">
-		<label for="url">Website</label><txp:comment_web_input/>
+		<label for="url">Website</label><txp:comment_web_input />
 	</p>
 </p>
 <p class="comment-form-comment">
-	<label for="comment">Message <span class="required">*</span></label><br/><txp:comment_message_input/></textarea>
+	<label for="comment">Message <span class="required">*</span></label><br/><txp:comment_message_input /></textarea>
 </p>
 <p class="form-submit">
-	<txp:comment_preview/><txp:comment_submit/>
+	<txp:comment_preview /><txp:comment_submit />
 </p>
 </div>
 <!-- #respond -->

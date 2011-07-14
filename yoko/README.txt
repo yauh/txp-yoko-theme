@@ -18,14 +18,25 @@ optimized for mobile devices such as tablet pcs and smartphones</li>
 </ul>
 <hr />
 
-<h5>Beta 2 - 11th July 2011</h5>
-
+<h5>Beta 3 - 14th July 2011</h5>
+<p>Known issues:</p>
 <ul>
 <li>CSS styles for comments and contact form and not the same</li>
+<li>gho_comments extension tab is not accessible (plugin update awaiting)</li>
 <li>addthis_user and addthis_brand variable are not used (yet)</li>
 </ul>
 
 <h5>Changelog</h5>
+<ul>
+<li>Beta 3 - 14th July 2011
+<ul>
+<li>included lots of smaller fixes</li>
+<li>updated smd_bio to 0.40</li>
+<li>added plugin rss_auto_excerpt for OpenGraph fixing</li>
+<li>added plugin etz_striptags to fix OpenGraph</li>
+<li>Updated README.txt to HTML format</li>
+</ul>
+</li>
 <ul>
 <li>Beta 2 - 11th July 2011
 <ul>

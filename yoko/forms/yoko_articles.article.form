@@ -6,7 +6,7 @@
 		by <txp:author /><br />
 		<txp:gho_comments_invite zero="No Comments" one=" Comment" more=" Comments" />
 	</p>
-	<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="<txp:variable name=" twitter_name" />">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script> 
+	<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" <txp:chh_if_data>data-via="<txp:variable name=" twitter_name"</txp:chh_if_data> />">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script> 
 </div>
 
 <!-- end entry-details -->
