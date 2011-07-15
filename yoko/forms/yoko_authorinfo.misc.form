@@ -6,7 +6,7 @@
 	<div class="author-description">
 		<h3>Author: <txp:author link="1"/></h3>
 		<p>
-			<txp:smd_bio_info fields="author_bio" label=""/>
+			<txp:if_custom_field name="author_bio"><txp:custom_field name="author_bio" /><txp:else /><txp:smd_bio_info fields="author_bio" label="" /></txp:if_custom_field>
 		</p>
 		</txp:if_plugin>
 	</div>

@@ -4,4 +4,8 @@
 
 	<div class="nav-next"><txp:link_to_next>Next Post &rarr;</txp:link_to_next></div>
 </txp:if_individual_article>
+<txp:if_article_list>
+	<div class="nav-previous"><txp:older class="nextpostslink"><span class="meta-nav">←</span> Older posts</txp:older></div>
+	<div class="nav-next"><txp:newer class="nextpostslink">Newer posts <span class="meta-nav">→</span></txp:newer></div>
+</txp:if_article_list>
 </nav><!-- end nav-below -->
