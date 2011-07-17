@@ -4,5 +4,5 @@
 </p>
 </txp:if_excerpt>
 <txp:chh_if_data>
-<h4 class="tags">filed under: <txp:tru_tags_from_article/></h4>
+<h4 class="tags">filed under: <txp:tru_tags_from_article /></h4>
 </txp:chh_if_data>
