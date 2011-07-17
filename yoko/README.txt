@@ -7,26 +7,37 @@ optimized for mobile devices such as tablet pcs and smartphones</li>
 <li>Yoko social links widget with mini icons (for RSS, twitter, facebook, flickr, vimeo, linkedin and delicious)</li>
 <li>Gravatar support for comments</li>
 <li>Google web fonts (Droid Sans and Droid Serif</li>
-<li>support for for multible columns, info boxes and text hightlight</li>
+<li>support for for multible columns, info boxes and text highlight</li>
 </ul>
 
 <p><strong>Good to know</strong></p>
 <ul>
 <li>Article Images have a thumbnail format and should be 140x140px. Bigger pictures will be scaled down.</li>
 <li>You need to set up Bio Config (Extensions tab) to have two fields: author_bio (text area) and author_image (Image)</li>
+<li>You can override author_bio (the info text for the article author) by placing content in a custom field named <em>author_bio</em></li>
 <li>You need to assign an article to the about section</li>
 </ul>
 <hr />
 
-<h5>Beta 3 - 14th July 2011</h5>
+<h5>Release 1.0 - 17th July 2011</h5>
 <p>Known issues:</p>
 <ul>
-<li>CSS styles for comments and contact form and not the same</li>
-<li>gho_comments extension tab is not accessible (plugin update awaiting)</li>
-<li>addthis_user and addthis_brand variable are not used (yet)</li>
+        <li><span class="caps">CSS</span> for Comment form and Contact form differ slightly</li>
+        <li>Markup still contains some Wordpress specific classes that are not required to use the theme</li>
+        <li><em>wet_quickling</em> error notice in Content&#8212;&gt;Write tab (does not affect functionality)</li>
+        <li>gho_comments extension tab is not accessible (plugin update awaiting)</li>
+        <li>addthis_user and addthis_brand variable are not used (yet)</li>
 </ul>
 
 <h5>Changelog</h5>
+<ul>
+<li>Release 1.0 - 17th July 2011
+<ul>
+<li>most issues are fixed except the known issues (see above)</li>
+<li>introduced several backend plugins to make content creation and linking more comfortable</li>
+</ul>
+</li>
+<ul>
 <ul>
 <li>Beta 3 - 14th July 2011
 <ul>
