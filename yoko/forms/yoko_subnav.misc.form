@@ -2,16 +2,11 @@
 <txp:aks_cache id='subnav_catmenu'>
 <nav id="subnav">
 <div class="menu-sub-menu-container">
-<ul id="menu" class="menu">
-<txp:category_list children="0" break="li" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent">
-<txp:category title="1" link="1" section="default" />
-<txp:article_custom category='<txp:category />' break="li" wraptag="ul"  class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent">
-</txp:article_custom>
-<txp:category_list parent='<txp:category />' exclude='<txp:category />' break="" wraptag="ul" class="sub-menu">
-<li class="menu-item menu-item-type-custom menu-item-object-custom"><txp:category title="1" link="1" section="default" />
-<txp:article_custom category='<txp:category />' wraptag="ul">
-</txp:article_custom></li>
-</txp:category_list>
+<ul id="menu-sub-menu" class="menu">
+<txp:category_list break="" children="0">
+	<li class="menu-item"><txp:category title="1" link="1" />
+	<txp:output_form form="yoko_subnav_lvl1"><txp:category /></txp:output_form>
+	</li>
 </txp:category_list>
 </ul>
 </div>

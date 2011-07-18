@@ -1,0 +1,13 @@
+<txp:variable name="submenu1_cats_found" value="0" />
+<txp:category_list break="" parent='<txp:yield />' children="0" exclude='<txp:yield />'>
+<ul class="sub-menu">
+	<txp:variable name="submenu1_cats_found" value="1" />
+	<li class="menu-item"><txp:category title="1" link="1" />
+	</li>
+	<txp:if_variable name="cat_menu_articles" value="1">
+		<txp:if_last_category>
+			<txp:article_custom category='<txp:yield />' break="li" sort="title asc" form="cat_menu_article" />
+		</txp:if_last_category>
+	</txp:if_variable>
+</ul>
+</txp:category_list>
