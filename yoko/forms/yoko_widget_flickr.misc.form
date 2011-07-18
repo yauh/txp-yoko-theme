@@ -5,5 +5,7 @@
 <div id="flickr_badge_wrapper"> 
 <script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=9&amp;display=random&amp;size=t&amp;layout=x&amp;source=user&amp;user=<txp:variable name="flickr_badge_id" />"> 
 </script>
+</div>
+</div>
 </aside>
 </txp:chh_if_data>

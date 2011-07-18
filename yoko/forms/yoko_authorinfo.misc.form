@@ -1,18 +1,14 @@
 <div class="author-info">
-<txp:if_plugin name="smd_bio" version="0.4">
+	<txp:smd_bio_info fields="author_image" label="">
+	<txp:smd_if_bio field="author_image" >
+		<txp:image id='{smd_bio_author_image}' width="70" class="avatar avatar-70 photo" />
+	<txp:else />
+		<txp:glx_gravatar email='<txp:gho_author_email/>' size="70" class="avatar avatar-70 photo" default="http://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536&amp;size=70&amp;rating=G" />
+	</txp:smd_if_bio>
+	</txp:smd_bio_info>
 
-<txp:smd_bio_info fields="author_image" label="">
-<txp:smd_if_bio field="author_image" >
-				<txp:image id='{smd_bio_author_image}' width="70" class="avatar avatar-70 photo"/>
-			<txp:else />
-				<txp:glx_gravatar email='<txp:gho_author_email/>' size="70" class="avatar avatar-70 photo" default="http://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536&amp;size=70&amp;rating=G" />
-			</txp:smd_if_bio>
-</txp:smd_bio_info>
-
-		<div class="author-description">
-		<h3>Author: <txp:author link="1" /></h3>
-		<p>   <txp:if_custom_field name="author_bio"><txp:custom_field name="author_bio" /><txp:else /><txp:smd_bio_info fields="author_bio" label="" /></txp:if_custom_field>
-</p>
-</txp:if_plugin>		
+	<div class="author-description">
+	<h3>Author: <txp:author link="1" /></h3>
+<p><txp:if_custom_field name="author_bio"><txp:custom_field name="author_bio" /><txp:else /><txp:smd_bio_info fields="author_bio" label="" /></txp:if_custom_field></p>
 </div><!-- end author-description -->
-
+</div><!-- end author-info -->
