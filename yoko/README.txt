@@ -19,18 +19,23 @@ optimized for mobile devices such as tablet pcs and smartphones</li>
 </ul>
 <hr />
 
-<h5>Release 1.01 - 17th July 2011</h5>
+<h5>Release 1.02 - 18th July 2011</h5>
 <p>Known issues:</p>
 <ul>
         <li><span class="caps">CSS</span> for Comment form and Contact form differ slightly</li>
         <li>Markup still contains some Wordpress specific classes that are not required to use the theme</li>
-        <li><em>wet_quickling</em> error notice in Content&#8212;&gt;Write tab (does not affect functionality)</li>
+        <li><em>wet_quicklink</em> error notice in Content&#8212;&gt;Write tab (does not affect functionality)</li>
         <li>gho_comments extension tab is not accessible (plugin update awaiting)</li>
         <li>addthis_user and addthis_brand variable are not used (yet)</li>
 </ul>
 
 <h5>Changelog</h5>
 <ul>
+<li>Release 1.02 - 18th July 2011
+<ul>
+<li>fixed missing closing div tags that broke the layout in Firefox 3.6</li>
+</ul>
+</li>
 <li>Release 1.01 - 18th July 2011
 <ul>
 <li>fixed a small bug with the subnav categories not properly responding to size changes</li>
