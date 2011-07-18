@@ -4,7 +4,7 @@
 <div class="menu-sub-menu-container">
 <ul id="menu-sub-menu" class="menu">
 <txp:category_list break="" children="0">
-	<li class="menu-item"><txp:category title="1" link="1" />
+	<li class="menu-item"><txp:category title="1" link="1" section="articles" />
 	<txp:output_form form="yoko_subnav_lvl1"><txp:category /></txp:output_form>
 	</li>
 </txp:category_list>
