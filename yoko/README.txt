@@ -19,7 +19,7 @@ optimized for mobile devices such as tablet pcs and smartphones</li>
 </ul>
 <hr />
 
-<h5>Release 1.0 - 17th July 2011</h5>
+<h5>Release 1.01 - 17th July 2011</h5>
 <p>Known issues:</p>
 <ul>
         <li><span class="caps">CSS</span> for Comment form and Contact form differ slightly</li>
@@ -31,14 +31,17 @@ optimized for mobile devices such as tablet pcs and smartphones</li>
 
 <h5>Changelog</h5>
 <ul>
+<li>Release 1.01 - 18th July 2011
+<ul>
+<li>fixed a small bug with the subnav categories not properly responding to size changes</li>
+</ul>
+</li>
 <li>Release 1.0 - 17th July 2011
 <ul>
 <li>most issues are fixed except the known issues (see above)</li>
 <li>introduced several backend plugins to make content creation and linking more comfortable</li>
 </ul>
 </li>
-<ul>
-<ul>
 <li>Beta 3 - 14th July 2011
 <ul>
 <li>included lots of smaller fixes</li>
@@ -46,7 +49,6 @@ optimized for mobile devices such as tablet pcs and smartphones</li>
 <li>updated documentation</li>
 </ul>
 </li>
-<ul>
 <li>Beta 2 - 11th July 2011
 <ul>
 <li>fixed Facebook Like button and OpenGraph tags (introduced plugin sho_urlencode)</li>
@@ -56,10 +58,11 @@ optimized for mobile devices such as tablet pcs and smartphones</li>
 <li>Updated README.txt to HTML format</li>
 </ul>
 </li>
-<li>Beta 1 (first public release)- 10th July 2011</li>
+<li>Beta 1 (first public release)- 10th July 2011
 <ul>
 <li>first public release</li>
 </ul>
+</li>
 </ul>
 
 <p>Based on Yoko for Wordpress by Elmastudio Version 1.0.4 - 31th May 2011<br />
