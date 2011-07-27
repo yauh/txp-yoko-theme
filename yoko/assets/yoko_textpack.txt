@@ -1,5 +1,0 @@
-#@public
-#@language en-us
-yoko_tag_headline => Articles have been tagged as
-#@language de-de
-yoko_tag_headline => Artikel wurden mit folgenden Tags versehen

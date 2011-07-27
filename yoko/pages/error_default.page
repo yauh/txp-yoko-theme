@@ -14,13 +14,13 @@
 <div id="content">
 
 <h1 class="error-status"><txp:error_status /></h1>
-<p class="error-msg">Apologies, but the page you requested could not be found. Perhaps searching will help.</p>
+<p class="error-msg"><txp:text item="yoko_404_error" /></p>
 
 <form method="get" class="searchform" id="searchform" action="<txp:site_url />" role="search">
 		<div>
 			<label class="screen-reader-text" for="s"></label>
 			<input type="text" class="search-input" name="q" id="s" name="s" />
-			<input class="searchsubmit" type="submit" value="Search" />
+			<input class="searchsubmit" type="submit" value="<txp:text item="yoko_search_button" />" />
 		</div>
 	</form>
 

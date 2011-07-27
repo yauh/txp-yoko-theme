@@ -14,7 +14,7 @@
 <div id="content">
 
 <txp:if_section name="tag">
-<h1 class="page-title">Articles have been tagged as</h1>
+<h1 class="page-title"><txp:text item="yoko_tag_headline" /></h1>
 </header><!--end page-header-->
   <txp:tru_tags_handler listform="yoko_articles" />
 </txp:if_section>
@@ -22,11 +22,11 @@
 <txp:if_search>
   <txp:article pgonly="1" limit="10" searchsticky="1" />
   <txp:if_search_results>
-<h1 class="page-title"><txp:search_result_count text="Search Results for: "/> <span><txp:search_term /></span></h1>
+<h1 class="page-title"><txp:search_result_count text="<txp:text item="yoko_search_results" /> "/> <span><txp:search_term /></span></h1>
 </header><!--end page-header-->
     <txp:article limit="10"  searchsticky="1" searchform="yoko_search_results" />
   <txp:else />
-    <p>Sorry, we were not able to find a page matching your search request <strong><txp:search_term /></strong>.</p>
+    <p><txp:text item="yoko_no_search_results" /> <strong><txp:search_term /></strong>.</p>
   </txp:if_search_results>
 
 <txp:else />

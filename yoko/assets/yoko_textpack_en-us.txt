@@ -1,0 +1,7 @@
+#@public
+#@language en-us
+yoko_tag_headline => Articles have been tagged as
+yoko_search_results => Search Results for:
+yoko_no_search_results => Sorry, we were not able to find a page matching your search request
+yoko_404_error => Apologies, but the page you requested could not be found. Perhaps searching will help.
+yoko_search_button => Search

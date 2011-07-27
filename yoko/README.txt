@@ -31,6 +31,12 @@ optimized for mobile devices such as tablet pcs and smartphones</li>
 
 <h5>Changelog</h5>
 <ul>
+<li>Release 1.03 - tbd
+<ul>
+<li>added localization of the theme by using textpacks</li>
+</ul>
+</li>
+<ul>
 <li>Release 1.02 - 18th July 2011
 <ul>
 <li>fixed missing closing div tags that broke the layout in Firefox 3.6</li>
