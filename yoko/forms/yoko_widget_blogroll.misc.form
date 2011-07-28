@@ -1,5 +1,5 @@
 <aside id="linkcat" class="widget widget_links">
-	<h3 class="widget-title">Blogroll</h3>
+	<h3 class="widget-title"><txp:text item="yoko_blogroll" /></h3>
 	<ul class='xoxo blogroll'>
 		<txp:linklist limit='<txp:variable name="number_of_links_in_sidebar" />' sort="rand()" form="yoko_blogroll"/>
 	</ul>

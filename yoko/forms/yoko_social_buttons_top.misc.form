@@ -1,4 +1,4 @@
 <div class="social-btn-top">
-<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="<txp:variable name="twitter_name" />">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="<txp:variable name="twitter_name" />"><txp:text item="yoko_tweet" /></a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
 </div>
 	<!-- end social-btns-top -->

@@ -1,6 +1,6 @@
 <txp:aks_cache id='categoriesaside'>
 <aside id="categories" class="widget widget_categories">
-	<h3 class="widget-title">Categories</h3>
+	<h3 class="widget-title"><txp:text item="yoko_categories" /></h3>
 <txp:category_list wraptag="ul" break="">
 <li class="cat-item">
 <txp:category title="1" link="1" />

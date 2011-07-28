@@ -1,4 +1,4 @@
-Follow this link to subscribe to the article "<txp:title />"
+<txp:text item="yoko_subscribe_invite" /> "<txp:title />"
 <txp:phq_subscribe_url />
 
-You can read the article on <txp:permlink />.
+<txp:text item="yoko_read_article" /> <txp:permlink />.
