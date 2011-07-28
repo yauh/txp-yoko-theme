@@ -4,9 +4,9 @@
 	<p>
 		<txp:posted /><br />
 		by <txp:author /><br />
-		<txp:gho_comments_invite zero="No Comments" one=" Comment" more=" Comments" />
+		<txp:gho_comments_invite zero="<txp:text item="yoko_no_comments" />" one="<txp:text item="yoko_one_comment" />" more="<txp:text item="yoko_more_comments" />" />
 	</p>
-	<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" <txp:chh_if_data>data-via="<txp:variable name=" twitter_name"</txp:chh_if_data> />">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script> 
+	<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" <txp:chh_if_data>data-via="<txp:variable name=" twitter_name"</txp:chh_if_data> />"><txp:text item="yoko_tweet" /></a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script> 
 </div>
 
 <!-- end entry-details -->
@@ -19,11 +19,11 @@
 <div class="entry-content">
 	<txp:if_excerpt> <txp:excerpt /> 
 	<p>
-		<txp:permlink>Read more...</txp:permlink>
+		<txp:permlink><txp:text item="yoko_read_more" /></txp:permlink>
 	</p>
 	<txp:else /> <txp:body /> </txp:if_excerpt> <footer class="entry-meta"> 
 	<p>
-		Categories: <txp:chh_if_data><txp:category1 title="1" link="1" /></txp:chh_if_data><txp:chh_if_data>, <txp:category2 title="1" link="1" /></txp:chh_if_data> | <txp:chh_if_data> Tags: <txp:tru_tags_from_article /> | </txp:chh_if_data> <txp:permlink>Permalink</txp:permlink> 
+		<txp:text item="yoko_categories" />: <txp:chh_if_data><txp:category1 title="1" link="1" /></txp:chh_if_data><txp:chh_if_data>, <txp:category2 title="1" link="1" /></txp:chh_if_data> | <txp:chh_if_data> <txp:text item="yoko_tags" />: <txp:tru_tags_from_article /> | </txp:chh_if_data> <txp:permlink>Permalink</txp:permlink> 
 	</p>
 	</footer>
 <!-- end entry-meta -->

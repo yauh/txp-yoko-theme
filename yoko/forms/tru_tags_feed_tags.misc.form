@@ -1,8 +1,8 @@
 <txp:if_excerpt>
 <p>
-	<txp:permlink>Read more...</txp:permlink>
+	<txp:permlink><txp:text item="yoko_read_more" /></txp:permlink>
 </p>
 </txp:if_excerpt>
 <txp:chh_if_data>
-<h4 class="tags">filed under: <txp:tru_tags_from_article /></h4>
+<h4 class="tags"><txp:text item="yoko_filed_under" /> <txp:tru_tags_from_article /></h4>
 </txp:chh_if_data>

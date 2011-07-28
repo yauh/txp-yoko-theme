@@ -1,6 +1,6 @@
 <txp:chh_if_data>
 <aside id="flickr" class="widget widget_rss">
-	<h3 class="widget-title">Flickr Pictures</h3>			
+	<h3 class="widget-title"><txp:text item="yoko_flickr_headline" /></h3>			
 <div class="textwidget">
 <div id="flickr_badge_wrapper"> 
 <script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=9&amp;display=random&amp;size=t&amp;layout=x&amp;source=user&amp;user=<txp:variable name="flickr_badge_id" />"> 

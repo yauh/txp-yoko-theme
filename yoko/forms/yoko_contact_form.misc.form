@@ -1,20 +1,20 @@
 <header class="page-entry-header"> 
-		<h1 class="entry-title">Contact</h1> 
+		<h1 class="entry-title"><txp:text item="yoko_contact" /></h1> 
 	</header><!--end page-entry-hader--> 
 
 <div class="single-entry-content">
-		<p>Do you have a question or some remarks about my site? Use the contact form below and send it my way!</p>
+		<p><txp:text item="yoko_contact_invite" /></p>
 <div class="wpcf7" id="wpcf7-f1-p689-o1">
 
-<h3 id="form-title">Contact Form</h3>
-<txp:zem_contact to='<txp:variable name="contact_form_email" />' label="" subject="Contact from </txp:site_name />" thanks="Thank you, your message has been sent.">
+<h3 id="form-title"><txp:text item="yoko_contact_headline" /></h3>
+<txp:zem_contact to='<txp:variable name="contact_form_email" />' label="" subject="<txp:text item="yoko_contactmail_subject" /> </txp:site_name />" thanks="<txp:text item="yoko_contact_thanks" />">
 
-<p><txp:zem_contact_text label="Name" /></p>
+<p><txp:zem_contact_text label="<txp:text item="yoko_contact_name" />" /></p>
 
-<p><txp:zem_contact_email label="E-Mail" /></p>
+<p><txp:zem_contact_email label="<txp:text item="yoko_contact_email" />" /></p>
 
-<p class="textarea"><txp:zem_contact_textarea label="Message" break="" /></p>
-<txp:zem_contact_serverinfo name="REMOTE_ADDR" label="IP number" />
+<p class="textarea"><txp:zem_contact_textarea label="<txp:text item="yoko_contact_message" />" break="" /></p>
+<txp:zem_contact_serverinfo name="REMOTE_ADDR" label="IP" />
 <txp:zem_contact_serverinfo name="HTTP_USER_AGENT" label="Browser" />
 <p><txp:zem_contact_submit /></p>
 

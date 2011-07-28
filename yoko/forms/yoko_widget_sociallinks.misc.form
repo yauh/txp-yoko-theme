@@ -1,5 +1,5 @@
 <aside id="social_links" class="widget widget_social_links">
-	<h3 class="widget-title">Social</h3>
+	<h3 class="widget-title"><txp:text item="yoko_social_links" /></h3>
 	<ul>
    <txp:if_variable name="feedburner_name" value="">
 	<li class="widget_sociallinks"><a href="<txp:site_url />rss" class="rss">RSS</a></li>

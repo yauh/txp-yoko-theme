@@ -1,16 +1,16 @@
 <div id="comments" class="clearfix">
-	<h3 id="comments-title"><txp:gho_comments_invite zero="No Comments" one=" comment" more=" comments" /></h3>
+	<h3 id="comments-title"><txp:gho_comments_invite zero="<txp:text item="yoko_no_comments" />" one="<txp:text item="yoko_one_comment" />" more="<txp:text item="yoko_more_comments" />" /></h3>
 	<p class="write-comment-link">
-		<a href="#respond">Leave a reply &rarr;</a>
+		<a href="#respond"><txp:text item="yoko_comment_invite" /> &rarr;</a>
 	</p>
 	<ol class="commentlist">
 		<txp:comments form="yoko_comments" />
 		<txp:if_comments_preview>
 		<div id="cpreview" <txp:chh_if_data>
 			style="background-color:<txp:variable name="preview_highlight_color" />"</txp:chh_if_data>>
-			<h5>Preview:</h5>
+			<h5><txp:text item="yoko_comment_preview_headline" />:</h5>
 			<p>
-				The following is only a preview. Please re-read your comment for clarity and hit submit once you approve of it.
+				<txp:text item="yoko_comment_preview" />
 			</p>
 			<txp:comments_preview form="yoko_comments" />
 		</div>
