@@ -4,7 +4,8 @@
 				<txp:permlink><txp:article_image width="150" height="150" class="attachment-thumbnail wp-post-image" /></txp:permlink>
 <p><txp:posted /><br/>
 		<txp:text item="yoko_article_by" /> <txp:author /><br/>
-		<txp:gho_comments_invite zero="<txp:text item="yoko_no_comments" />" one=" <txp:text item="yoko_one_comment" />" more="<txp:text item="yoko_more_comments" />" /></p>
+		<txp:gho_comments_invite zero='<txp:text item="yoko_no_comments" />' one=' <txp:text item="yoko_one_comment" />' more=' <txp:text item="yoko_more_comments" />' nocomment='<txp:text item="yoko_comments_closed" />' /></p>
+<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" <txp:chh_if_data>data-via="<txp:variable name=" twitter_name"</txp:chh_if_data> />"><txp:text item="yoko_tweet" /></a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
 	</div><!-- end entry-details -->
     
 	<header class="entry-header">

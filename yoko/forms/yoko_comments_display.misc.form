@@ -1,7 +1,7 @@
 <div id="comments" class="clearfix">
-	<h3 id="comments-title"><txp:gho_comments_invite zero="<txp:text item="yoko_no_comments" />" one="<txp:text item="yoko_one_comment" />" more="<txp:text item="yoko_more_comments" />" /></h3>
+	<h3 id="comments-title"><txp:gho_comments_invite zero='<txp:text item="yoko_no_comments" />' one=' <txp:text item="yoko_one_comment" />' more=' <txp:text item="yoko_more_comments" />' nocomment='<txp:text item="yoko_comments_closed" />' /></h3>
 	<p class="write-comment-link">
-		<a href="#respond"><txp:text item="yoko_comment_invite" /> &rarr;</a>
+		<a href="#respond"><txp:gho_comments_invite zero='<txp:text item="yoko_no_comments" />' one=' <txp:text item="yoko_one_comment" />' more=' <txp:text item="yoko_more_comments" />' nocomment='<txp:text item="yoko_comments_closed" />' />&rarr;</a>
 	</p>
 	<ol class="commentlist">
 		<txp:comments form="yoko_comments" />

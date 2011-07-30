@@ -12,28 +12,32 @@ optimized for mobile devices such as tablet pcs and smartphones</li>
 
 <p><strong>Good to know</strong></p>
 <ul>
+<li>You need to import the Textpack for your site's language (find it in assets)</li>
 <li>Article Images have a thumbnail format and should be 140x140px. Bigger pictures will be scaled down.</li>
 <li>You need to set up Bio Config (Extensions tab) to have two fields: author_bio (text area) and author_image (Image)</li>
 <li>You can override author_bio (the info text for the article author) by placing content in a custom field named <em>author_bio</em></li>
 <li>You need to assign an article to the about section</li>
+<li>Make sure that in the prefs you set that comments are not automatically appended</li>
 </ul>
 <hr />
 
-<h5>Release 1.02 - 18th July 2011</h5>
+<h5>Release 1.03 - 30th July 2011</h5>
 <p>Known issues:</p>
 <ul>
         <li><span class="caps">CSS</span> for Comment form and Contact form differ slightly</li>
         <li>Markup still contains some Wordpress specific classes that are not required to use the theme</li>
-        <li><em>wet_quicklink</em> error notice in Content&#8212;&gt;Write tab (does not affect functionality)</li>
         <li>gho_comments extension tab is not accessible (plugin update awaiting)</li>
         <li>addthis_user and addthis_brand variable are not used (yet)</li>
 </ul>
 
 <h5>Changelog</h5>
 <ul>
-<li>Release 1.03 - tbd
+<li>Release 1.03 - 30th July 2011
 <ul>
 <li>added localization of the theme by using textpacks</li>
+<li>fixed issue where links to older and newer posts in article lists would not show</li>
+<li>updated wet_quicklink to 0.8.2</li>
+<li>introduced rah_textile_bar for easier content creation</li>
 </ul>
 </li>
 <ul>

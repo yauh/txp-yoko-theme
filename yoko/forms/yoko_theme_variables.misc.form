@@ -1,3 +1,4 @@
+<txp:hide>PUBLIC variables below, ADMIN variables above</txp:hide>
 <txp:variable name="contact_form_email" value='mail@example.com' />
 <txp:variable name="header_image_name" value='tpl/yoko/assets/images/headers/ginko.jpg' />
 <txp:variable name="site_logo" value='tpl/yoko/assets/images/headers/ginko.jpg' />
@@ -19,8 +20,8 @@
 <txp:variable name="youtube_link" value='' />
 <txp:variable name="flickr_badge_id" value='' />
 <txp:variable name="show_category_menu(yes_or_no)" value='yes' />
-<txp:variable name="number_of_articles on frontpage" value ='5' />
-<txp:variable name="number_of_links_in_sidebar" value ='5' />
+<txp:variable name="number_of_articles on frontpage" value='5' />
+<txp:variable name="number_of_links_in_sidebar" value='5' />
 <txp:variable name="facebook_application_id" value='' />
 <txp:variable name="addthis_user" value='' />
 <txp:variable name="addthis_brand" value='' />

@@ -1,0 +1,1 @@
+<txp:gho_comments_invite zero='<txp:text item="yoko_no_comments" />' one=' <txp:text item="yoko_one_comment" />' more=' <txp:text item="yoko_more_comments" />' />

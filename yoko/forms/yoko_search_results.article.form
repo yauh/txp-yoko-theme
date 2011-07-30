@@ -3,7 +3,7 @@
 				<txp:permlink><txp:article_image width="150" height="150" class="attachment-thumbnail" /></txp:permlink>
 <p><txp:posted /><br/>
 		<txp:text item="yoko_article_by" /> <txp:author /><br/>
-		<txp:gho_comments_invite zero="<txp:text item="yoko_no_comments" />" one=" <txp:text item="yoko_one_comment" />" more="<txp:text item="yoko_more_comments" />" /></p>
+		<txp:gho_comments_invite zero='<txp:text item="yoko_no_comments" />' one=' <txp:text item="yoko_one_comment" />' more=' <txp:text item="yoko_more_comments" />' nocomment='<txp:text item="yoko_comments_closed" />' /></p>
 	</div><!-- end entry-details -->
     
 	<header class="entry-header">

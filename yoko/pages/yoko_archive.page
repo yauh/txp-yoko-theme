@@ -13,7 +13,7 @@
 
 <div id="content">
 
-<h2>Archives</h2>
+<h2><txp:text item="yoko_archives" /></h2>
 
 <txp:rss_suparchive section="articles" showsection="0" showsubdate="0" />
 

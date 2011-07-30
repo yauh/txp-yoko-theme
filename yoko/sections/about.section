@@ -1,5 +1,5 @@
 name=about
-page=yoko_fullwidth
+page=yoko_default
 css=yoko_style
 is_default=0
 in_rss=0

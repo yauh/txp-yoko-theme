@@ -7,7 +7,7 @@
 	<header class="single-entry-header">
 	
 			<h2 class="entry-title"><txp:permlink><txp:title /></txp:permlink></h2>
-				<p><span class="entry-date"><txp:posted /></span> <span class="entry-author"><txp:text item="yoko_article_by" /> <txp:author /></span>  |<txp:gho_comments_invite zero="<txp:text item="yoko_no_comments" />" one=" <txp:text item="yoko_one_comment" />" more="<txp:text item="yoko_more_comments" />" /></p>
+				<p><span class="entry-date"><txp:posted /></span> <span class="entry-author"><txp:text item="yoko_article_by" /> <txp:author /></span>  | <txp:gho_comments_invite zero='<txp:text item="yoko_no_comments" />' one=' <txp:text item="yoko_one_comment" />' more=' <txp:text item="yoko_more_comments" />' nocomment='<txp:text item="yoko_comments_closed" />' /></p>
 				   
 	</header><!-- end single-entry-header -->
 <txp:output_form form="yoko_social_buttons_top" />
