@@ -1,5 +1,5 @@
 #@public
-#@language en-us
+#@language en-gb
 #@packid yoko
 yoko_tag_headline => Articles have been tagged as
 yoko_search_results => Search Results for:
