@@ -6,8 +6,9 @@ optimized for mobile devices such as tablet pcs and smartphones</li>
 <li>Theme Options tab for simple adjustment of template options</li>
 <li>Yoko social links widget with mini icons (for RSS, twitter, facebook, flickr, vimeo, linkedin and delicious)</li>
 <li>Gravatar support for comments</li>
-<li>Google web fonts (Droid Sans and Droid Serif</li>
+<li>Google web fonts (Droid Sans and Droid Serif)</li>
 <li>support for for multible columns, info boxes and text highlight</li>
+<li>localized front-end using Textpacks</li>
 </ul>
 
 <p><strong>Good to know</strong></p>
@@ -21,7 +22,7 @@ optimized for mobile devices such as tablet pcs and smartphones</li>
 </ul>
 <hr />
 
-<h5>Release 1.03 - 30th July 2011</h5>
+<h5>Release 1.04 - 4th August 2011</h5>
 <p>Known issues:</p>
 <ul>
         <li><span class="caps">CSS</span> for Comment form and Contact form differ slightly</li>
@@ -32,6 +33,12 @@ optimized for mobile devices such as tablet pcs and smartphones</li>
 
 <h5>Changelog</h5>
 <ul>
+<li>Release 1.04 - 4th August 2011
+<ul>
+<li>fixed wrong header for Textpack en-gb</li>
+<li>fixed contact form</li>
+</ul>
+</li>
 <li>Release 1.03 - 30th July 2011
 <ul>
 <li>added localization of the theme by using textpacks</li>
