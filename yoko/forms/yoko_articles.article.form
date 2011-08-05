@@ -6,7 +6,7 @@
 		<txp:text item="yoko_article_by" /> <txp:author /><br />
 		<txp:gho_comments_invite zero='<txp:text item="yoko_no_comments" />' one=' <txp:text item="yoko_one_comment" />' more=' <txp:text item="yoko_more_comments" />' nocomment='<txp:text item="yoko_comments_closed" />' />
 	</p>
-	<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" <txp:chh_if_data>data-via="<txp:variable name=" twitter_name"</txp:chh_if_data> />"><txp:text item="yoko_tweet" /></a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script> 
+	<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="<txp:permlink />" data-text="<txp:title />" <txp:chh_if_data>data-via="<txp:variable name=" twitter_name"</txp:chh_if_data> />"><txp:text item="yoko_tweet" /></a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script> 
 </div>
 
 <!-- end entry-details -->

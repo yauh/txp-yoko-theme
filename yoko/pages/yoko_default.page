@@ -50,7 +50,7 @@
 <div class="clear"></div>				
 
 <txp:if_individual_article>
-<a id="comment" />
+<a id='<txp:text item="comment" />' />
 <txp:output_form form="yoko_comments_display" />
 </txp:if_individual_article>
 
