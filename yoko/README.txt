@@ -22,7 +22,7 @@ optimized for mobile devices such as tablet pcs and smartphones</li>
 </ul>
 <hr />
 
-<h5>Release 1.04 - 4th August 2011</h5>
+<h5>Release 1.05 - 14th August 2011</h5>
 <p>Known issues:</p>
 <ul>
         <li><span class="caps">CSS</span> for Comment form and Contact form differ slightly</li>
@@ -33,6 +33,13 @@ optimized for mobile devices such as tablet pcs and smartphones</li>
 
 <h5>Changelog</h5>
 <ul>
+<li>Release 1.05 - 14th August 2011
+<ul>
+<li>fixed Tweet this button in article lists</li>
+<li>fixed anchor for link to comments</li>
+<li>updated arc_twitter and smd_bio plugins</li>
+</ul>
+</li>
 <li>Release 1.04 - 4th August 2011
 <ul>
 <li>fixed wrong header for Textpack en-gb</li>
