@@ -3,7 +3,7 @@
 <aside id="tag_cloud" class="widget widget_tag_cloud">
 	<h3 class="widget-title"><txp:text item="yoko_tags" /></h3>
 	<div class="tagcloud">
-		<txp:tru_tags_cloud minpercent='75' maxpercent='120'/>
+		<txp:tru_tags_cloud minpercent='75' maxpercent='220'/>
 	</div>
 </aside>
 </txp:chh_if_data>

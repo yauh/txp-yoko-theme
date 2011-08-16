@@ -2,13 +2,17 @@
 
 <txp:output_form form="yoko_widget_search" />
 
+<txp:output_form form="yoko_widget_adsense" />
+
 <txp:output_form form="yoko_widget_text" />
 
 <txp:output_form form="yoko_widget_recentcomments" />
 
 <txp:output_form form="yoko_widget_tagcloud" />
 
+<txp:if_variable name="flickr_badge_id" value="">
 <txp:output_form form="yoko_widget_flickr" />
+</txp:if_variable>
 
 <txp:output_form form="yoko_widget_archives" />
 
