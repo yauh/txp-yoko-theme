@@ -1097,6 +1097,9 @@ aside.widget ul li:last-child {
 	padding: 0 0 3px;
 }
 /* --- Flickr Fotostream Widget --- */
+.widget_flickr {
+	height:235px;
+}
 #flickr_badge_wrapper {
 	margin:3px 0 0;
 }
