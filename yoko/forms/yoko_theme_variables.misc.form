@@ -24,5 +24,6 @@
 <txp:variable name="number_of_articles_on_frontpage" value='5' />
 <txp:variable name="number_of_links_in_sidebar" value='5' />
 <txp:variable name="facebook_application_id" value='' />
+<txp:variable name="google_adsense(yes_or_no)" value='yes' />
 <txp:variable name="addthis_user" value='' />
 <txp:variable name="addthis_brand" value='' />
