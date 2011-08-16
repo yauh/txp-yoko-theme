@@ -10,6 +10,9 @@
 	<li class="widget_sociallinks"><a href="<txp:variable name="delicious_link" />" class="delicious">Delicious</a></li>
 </txp:chh_if_data>
 <txp:chh_if_data>
+	<li class="widget_sociallinks"><a href="<txp:variable name="doonited_link" />" class="doonited">Doonited</a></li>
+</txp:chh_if_data>
+<txp:chh_if_data>
 	<li class="widget_sociallinks"><a href="<txp:variable name="facebook_link" />" class="facebook">Facebook</a></li>
 </txp:chh_if_data>
 <txp:chh_if_data>

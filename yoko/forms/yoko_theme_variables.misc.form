@@ -6,6 +6,7 @@
 <txp:variable name="preview_highlight_color" value='#FF0' />
 <txp:variable name="custom_link_color" value='#009BC2' />
 <txp:variable name="delicious_link" value='' />
+<txp:variable name="doonited_link" value='' />
 <txp:variable name="facebook_link" value='' />
 <txp:variable name="feedburner_name" value='' />
 <txp:variable name="flickr_link" value='' />

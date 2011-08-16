@@ -1050,6 +1050,9 @@ aside.widget ul li:last-child {
 .widget_sociallinks a.delicious {
 	background:url(tpl/yoko/assets/images/delicious-icon.png) 0 0 no-repeat;
 }
+.widget_sociallinks a.doonited {
+	background:url(tpl/yoko/assets/images/doonited-icon.png) 0 0 no-repeat;
+}
 .widget_sociallinks a.lastfm {
 	background:url(tpl/yoko/assets/images/lastfm-icon.png) 0 0 no-repeat;
 }
