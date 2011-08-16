@@ -14,6 +14,7 @@ optimized for mobile devices such as tablet pcs and smartphones</li>
 <p><strong>Good to know</strong></p>
 <ul>
 <li>You need to import the Textpack for your site's language (find it in assets)</li>
+<li>Google Adsense is used since v1.06 of the theme. Use theme variables to switch it off or paste your own Adsense code into the yoko_widget_adsense form</li>
 <li>Article Images have a thumbnail format and should be 140x140px. Bigger pictures will be scaled down.</li>
 <li>You need to set up Bio Config (Extensions tab) to have two fields: author_bio (text area) and author_image (Image)</li>
 <li>You can override author_bio (the info text for the article author) by placing content in a custom field named <em>author_bio</em></li>
@@ -22,7 +23,7 @@ optimized for mobile devices such as tablet pcs and smartphones</li>
 </ul>
 <hr />
 
-<h5>Release 1.05 - 14th August 2011</h5>
+<h5>Release 1.06 - 16th August 2011</h5>
 <p>Known issues:</p>
 <ul>
         <li><span class="caps">CSS</span> for Comment form and Contact form differ slightly</li>
@@ -33,6 +34,12 @@ optimized for mobile devices such as tablet pcs and smartphones</li>
 
 <h5>Changelog</h5>
 <ul>
+<li>Release 1.06 - 16th August 2011
+<ul>
+<li>introduced Google Adsense (switch off using Theme Variables)</li>
+<li>minor changes to forms (monthly archive layout, flickr widget, doonited added to social links)</li>
+</ul>
+</li>
 <li>Release 1.05 - 14th August 2011
 <ul>
 <li>fixed Tweet this button in article lists</li>

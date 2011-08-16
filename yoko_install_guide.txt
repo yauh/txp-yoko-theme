@@ -13,7 +13,7 @@ Import the theme using the extension tab (go to Extensions-->Templates and selec
 
 Import the yoko_textpack file for your site's language setting from the assets folder (e.g. yoko_textpack_en-us.txt) and import it in the Preferences-->Language tab on the admin side. If there is no textpack file available for your language you may create one yourself.
 
-navigate between the main menu entries "Presentation, Admin, and Content" to make sure there are no error messages. There may be some on the first click.
+Navigate between the main menu entries "Presentation, Admin, and Content" to make sure there are no error messages. There may be some on the first click.
 
 Adjust all TXP Preferences to your liking
 
@@ -54,3 +54,4 @@ Adjust theme variables if desired:
 
 * Navigate to Presentation-->Yoko Variables
 * Adjust all values to your liking. If you do not have a profile with any of the social services listed, simply remove all content from the field to avoid display.
+* Google Adsense is used since v1.06, if you would like to remove it simply set the corresponding variable from yes to no.
