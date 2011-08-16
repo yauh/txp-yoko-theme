@@ -15,7 +15,7 @@
 
 <h2><txp:text item="yoko_archives" /></h2>
 
-<txp:rss_suparchive section="articles" showsection="0" showsubdate="0" />
+<txp:rss_suparchive section="articles" showsubdate="1" dateformat="%B %Y" showsection="0" />
 
 <div class="clear"></div>				
 
