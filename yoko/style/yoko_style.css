@@ -1065,6 +1065,9 @@ aside.widget ul li:last-child {
 .widget_sociallinks a.tumblr {
 	background:url(tpl/yoko/assets/images/tumblr-icon.gif) 0 0 no-repeat;
 }
+.widget_sociallinks a.amazon {
+	background:url(tpl/yoko/assets/images/amazon-icon.png) 0 0 no-repeat;
+}
 .widget_sociallinks a.stellar {
 	background:url(tpl/yoko/assets/images/stellar-icon.png) 0 0 no-repeat;
 }

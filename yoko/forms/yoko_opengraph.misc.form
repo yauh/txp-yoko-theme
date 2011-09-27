@@ -1,15 +1,19 @@
-<txp:if_individual_article>
 <!-- opengraph -->
 <meta property="og:title" content="<txp:title no_widow='0' />"> 
 <meta property="og:description" content="<txp:etz_striptags><txp:rss_auto_excerpt showlinkwithexcerpt="0" /></txp:etz_striptags>">
 <meta property="og:type" content="article">
 <meta property="og:image" content="<txp:site_url /><txp:variable name="site_logo" />">
+
 <txp:if_individual_article>
+<meta property="og:title" content="<txp:title />" />
 <meta property="og:url" content="<txp:smd_canonical type="url" />">
+<txp:else />
+<meta property="og:url" content="<txp:site_url />">
+<meta property="og:type" content="blog" />
 </txp:if_individual_article>
+
 <meta property="og:site_name" content="<txp:site_name />">
 <txp:chh_if_data>
   <meta property="fb:appid" content="<txp:variable name="facebook_application_id" />">
 </txp:chh_if_data>
 <!-- end opengraph -->
-</txp:if_individual_article>
