@@ -23,7 +23,7 @@ optimized for mobile devices such as tablet pcs and smartphones</li>
 </ul>
 <hr />
 
-<h5>Release 1.06 - 16th August 2011</h5>
+<h5>Release 1.07 - 27th September 2011</h5>
 <p>Known issues:</p>
 <ul>
         <li><span class="caps">CSS</span> for Comment form and Contact form differ slightly</li>
@@ -33,6 +33,13 @@ optimized for mobile devices such as tablet pcs and smartphones</li>
 </ul>
 
 <h5>Changelog</h5>
+<ul>
+<li>Release 1.07 - 27th September 2011
+<ul>
+<li>fixed the nofollow to allow robots to index the page</li>
+<li>Added Amazon wishlist to social links</li>
+<li>minor changes to facebook open graph</li>
+</ul>
 <ul>
 <li>Release 1.06 - 16th August 2011
 <ul>
