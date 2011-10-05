@@ -160,26 +160,26 @@ a:hover {
 }
 /* Lists
 --------------------------------------------- */
-#content .post ul, #content .page ul  {
+#content .post ul, #content .page ul, .commentlist ul  {
 	padding:7px 0 7px 30px;
 	line-height: 1.3;
 }
-#content .post ul li, #content .page ul li {
+#content .post ul li, #content .page ul li, .commentlist ul li {
 	padding:0 0 12px;
 	list-style: square;
 }
-#content .post ol, #content .page ol  {
-	padding:7px 0 7px 30px;
+#content .post ol, #content .page ol, .commentlist ol  {
+	padding:7px 0 7px 30px !important;
 	line-height: 1.3;
 }
-#content .post ol li, #content .page ol li {
+#content .post ol li, #content .page ol li, .commentlist ol li {
 	padding:0 0 12px;
 	list-style: decimal;
 }
-#content .post ol ol li, #content .page ol ol li {
+#content .post ol ol li, #content .page ol ol li,  .commentlist ol ol li {
 	list-style: upper-alpha;
 }
-#content .post ol ol ol li, #content .page ol ol ol li {
+#content .post ol ol ol li, #content .page ol ol ol li, .commentlist ol ol ol li {
 	list-style: lower-roman;
 }
 #content dl {
@@ -299,13 +299,13 @@ nav#subnav ul.menu {
 	border-top: 1px solid #ddd;
 	overflow: hidden;
 }
-nav#subnav ul.menu li {
+nav#subnav ul.menu li.menu-item {
 	width: 14.2468%;
 	margin:0px;
 	float: left;
 	list-style: none;
 }
-nav#subnav ul.menu li a {
+nav#subnav ul.menu li.menu-item a {
 	font-size: .8em;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -315,11 +315,11 @@ nav#subnav ul.menu li.menu-item ul.sub-menu {
 	padding: 6px 0 0;
 	overflow: hidden;
 }
-nav#subnav ul.menu li ul.sub-menu li {
+nav#subnav ul.menu li.menu-item ul.sub-menu li.menu-item {
 	width: 100%;
 	letter-spacing: 0;
 }
-nav#subnav ul.menu li ul.sub-menu li a {
+nav#subnav ul.menu li.menu-item ul.sub-menu li.menu-item a {
 	font-size: .8em;
 	font-weight: normal;
 	line-height:2;
@@ -415,7 +415,7 @@ nav#subnav ul.menu li ul.sub-menu li a {
 #content p small {
 	font-size: .8em;
 }
-#content .post blockquote {
+#content .post blockquote, #content .page blockquote {
 	margin: 0 20px 10px 0;
 	overflow: hidden;
 	font: italic 1.1em/1.6 'Droid Serif', Times, serif;
@@ -642,14 +642,18 @@ nav#subnav ul.menu li ul.sub-menu li a {
 	margin: 30px 0 3px 0;
 	overflow: hidden;
 }
-#content #nav-below .nav-previous a, #content #image-nav span.previous-image a {
+#comment-nav-below {
+	margin:40px 0;
+	overflow: hidden;
+}
+#content #nav-below .nav-previous a, #content #image-nav span.previous-image a, #comment-nav-below .nav-previous a {
 	width: 40%;
 	display: block;
 	float: left;
 	font-size: .9em;
 	font-weight: bold;
 }
-#content #nav-below .nav-next a, #content #image-nav span.next-image a {
+#content #nav-below .nav-next a, #content #image-nav span.next-image a, #comment-nav-below .nav-next a {
 	display: block;
 	float: right;
 	font-size: .9em;
@@ -959,7 +963,7 @@ aside.widget ul li:last-child {
 .widget_recent_entries ul, .widget_recent_comments ul {
 	padding: 0 0 0 15px;
 }
-.widget_recent_entries ul li {
+.widget_recent_entries ul li, .widget_recent_comments ul li {
 	list-style: square;
 }
 .widget_calendar #wp-calendar caption {
@@ -1100,9 +1104,6 @@ aside.widget ul li:last-child {
 	padding: 0 0 3px;
 }
 /* --- Flickr Fotostream Widget --- */
-.widget_flickr {
-	height:235px;
-}
 #flickr_badge_wrapper {
 	margin:3px 0 0;
 }
