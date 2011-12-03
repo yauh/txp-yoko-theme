@@ -23,7 +23,7 @@ optimized for mobile devices such as tablet pcs and smartphones</li>
 </ul>
 <hr />
 
-<h5>Release 1.08 - xx xx xx</h5>
+<h5>Release 1.08 - 03rd December 2011</h5>
 <p>Known issues:</p>
 <ul>
         <li><span class="caps">CSS</span> for Comment form and Contact form differ slightly</li>
@@ -34,7 +34,7 @@ optimized for mobile devices such as tablet pcs and smartphones</li>
 
 <h5>Changelog</h5>
 <ul>
-<li>Release 1.08 - xx xx xx
+<li>Release 1.08 - 03rd December 2011
 <ul>
 <li>Updated jQuery to 1.7.1 (loaded via Google CDN to increase performance)</li>
 <li>Introduced slimbox2 for nice image display</li>
