@@ -1,0 +1,1 @@
+<!-- twittersharearticleslist --><a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="<txp:permlink />" data-text="<txp:title />" <txp:chh_if_data>data-via="<txp:variable name=" twitter_name"</txp:chh_if_data> />"><txp:text item="yoko_tweet" /></a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>

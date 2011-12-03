@@ -14,7 +14,7 @@
 <div id="content">
 
 <txp:if_section name="tag">
-<h1 class="page-title"><txp:text item="yoko_tag_headline" /></h1>
+<h1 class="page-title"><txp:text item="yoko_tag_headline" /><txp:chh_if_data> <txp:tru_tags_tag_parameter /></txp:chh_if_data></h1>
 </header><!--end page-header-->
   <txp:tru_tags_handler listform="yoko_articles" />
 </txp:if_section>

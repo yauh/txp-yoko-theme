@@ -37,6 +37,12 @@
 	<li class="widget_sociallinks"><a href="http://twitter.com/<txp:variable name="twitter_name" />" class="twitter">Twitter</a></li>
 </txp:chh_if_data>
 <txp:chh_if_data>
+	<li class="widget_sociallinks"><a href="<txp:variable name="foursquare_link" />" class="foursquare">Foursquare</a></li>
+</txp:chh_if_data>
+<txp:chh_if_data>
+	<li class="widget_sociallinks"><a href="<txp:variable name="qype_link" />" class="qype">Qype</a></li>
+</txp:chh_if_data>
+<txp:chh_if_data>
 	<li class="widget_sociallinks"><a href="<txp:variable name="tumblr_link" />" class="tumblr">Tumblr</a></li>
 </txp:chh_if_data>
 <txp:chh_if_data>

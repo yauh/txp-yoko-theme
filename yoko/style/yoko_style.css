@@ -783,6 +783,24 @@ input#submit, input.wpcf7-submit, input#txpCommentSubmit, input#txpCommentPrevie
 	letter-spacing: 1px;
 	cursor: pointer;
 }
+
+input#txpCommentSubmit.disabled  {
+	text-indent:-9999px;
+	margin: 10px 0 0;
+	padding: 8px 10px 7px;
+	display: inline-block;
+	vertical-align: baseline;
+	outline: none;
+	background-color: transparent;
+	border: none;
+	font-size: .75em;
+	color: #9f2;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
 input#submit:hover, input.wpcf7-submit:hover, input#txpCommentSubmit:hover, input#txpCommentPreview:hover {
 	background-color: #009BC2;
 	color: #fff;
@@ -1065,6 +1083,12 @@ aside.widget ul li:last-child {
 }
 .widget_sociallinks a.github {
 	background:url(tpl/yoko/assets/images/github-icon.png) 0 0 no-repeat;
+}
+.widget_sociallinks a.foursquare {
+	background:url(tpl/yoko/assets/images/foursquare-icon.png) 0 0 no-repeat;
+}
+.widget_sociallinks a.qype {
+	background:url(tpl/yoko/assets/images/qype-icon.png) 0 0 no-repeat;
 }
 .widget_sociallinks a.tumblr {
 	background:url(tpl/yoko/assets/images/tumblr-icon.gif) 0 0 no-repeat;

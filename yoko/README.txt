@@ -15,11 +15,11 @@ optimized for mobile devices such as tablet pcs and smartphones</li>
 <ul>
 <li>You need to import the Textpack for your site's language (find it in assets)</li>
 <li>Google Adsense is used since v1.06 of the theme. Use theme variables to switch it off or paste your own Adsense code into the yoko_widget_adsense form</li>
-<li>Article Images have a thumbnail format and should be 140x140px. Bigger pictures will be scaled down.</li>
+<li>Article Images have a thumbnail format and should be 140x140px. Bigger pictures will be scaled down on the client side.</li>
 <li>You need to set up Bio Config (Extensions tab) to have two fields: author_bio (text area) and author_image (Image)</li>
 <li>You can override author_bio (the info text for the article author) by placing content in a custom field named <em>author_bio</em></li>
 <li>You need to assign an article to the about section</li>
-<li>Make sure that in the prefs you set that comments are not automatically appended</li>
+<li>Make sure that you set in the prefs that comments are not automatically appended to an article</li>
 </ul>
 <hr />
 
@@ -28,7 +28,7 @@ optimized for mobile devices such as tablet pcs and smartphones</li>
 <ul>
         <li><span class="caps">CSS</span> for Comment form and Contact form differ slightly</li>
         <li>Markup still contains some Wordpress specific classes that are not required to use the theme</li>
-        <li>gho_comments extension tab is not accessible (plugin update awaiting)</li>
+        <li>gho_comments extension (CommentTools) tab is not accessible (plugin update awaiting)</li>
         <li>addthis_user and addthis_brand variable are not used (yet)</li>
 </ul>
 
@@ -36,6 +36,10 @@ optimized for mobile devices such as tablet pcs and smartphones</li>
 <ul>
 <li>Release 1.08 - xx xx xx
 <ul>
+<li>Updated jQuery to 1.7.1 (loaded via Google CDN to increase performance)</li>
+<li>Introduced slimbox2 for nice image display</li>
+<li>Introduced image resizing on the content/images tab</li>
+<li>fixed title and h1 tags for the tag section (tag names were missing)</li>
 <li>Added italian textpack, thanks to <a href="http://www.boscartoon.com/">Maurizio Boscarol</a></li>
 </ul>
 <ul>

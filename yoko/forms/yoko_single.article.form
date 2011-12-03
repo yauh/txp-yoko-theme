@@ -10,7 +10,9 @@
 				<p><span class="entry-date"><txp:posted /></span> <span class="entry-author"><txp:text item="yoko_article_by" /> <txp:author /></span>  | <txp:gho_comments_invite zero='<txp:text item="yoko_no_comments" />' one=' <txp:text item="yoko_one_comment" />' more=' <txp:text item="yoko_more_comments" />' nocomment='<txp:text item="yoko_comments_closed" />' /></p>
 				   
 	</header><!-- end single-entry-header -->
+<txp:if_variable name="social_buttons(yes_or_no)" value="yes">
 <txp:output_form form="yoko_social_buttons_top" />
+</txp:if_variable>
 	<div class="single-entry-content">
 	<txp:body />	
 								
@@ -25,5 +27,7 @@
 	</footer><!-- end single-entry-meta -->
 <txp:output_form form="yoko_authorinfo" />
 	</div><!-- end single-entry-content -->
-<txp:output_form form="yoko_social_buttons" />			
+<txp:if_variable name="social_buttons(yes_or_no)" value="yes">
+<txp:output_form form="yoko_social_buttons" />
+</txp:if_variable>	
 </article><!-- end post-<txp:article_id /> -->
