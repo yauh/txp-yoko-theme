@@ -1,5 +1,5 @@
 <txp:hide>PUBLIC variables below, ADMIN variables above</txp:hide>
-<txp:variable name="contact_form_email" value='stephan@yauh.de' />
+<txp:variable name="contact_form_email" value='change@this' />
 <txp:variable name="header_image_name" value='tpl/yoko/assets/images/headers/ginko.jpg' />
 <txp:variable name="site_logo" value='tpl/yoko/assets/images/headers/ginko.jpg' />
 <txp:variable name="meta_keywords" value='textpattern, blog, website, yoko, theme, template' />
