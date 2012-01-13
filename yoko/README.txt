@@ -23,7 +23,7 @@ optimized for mobile devices such as tablet pcs and smartphones</li>
 </ul>
 <hr />
 
-<h5>Release 1.08 - 03rd December 2011</h5>
+<h5>Release 1.09 - 13th January 2012</h5>
 <p>Known issues:</p>
 <ul>
         <li><span class="caps">CSS</span> for Comment form and Contact form differ slightly</li>
@@ -33,6 +33,13 @@ optimized for mobile devices such as tablet pcs and smartphones</li>
 </ul>
 
 <h5>Changelog</h5>
+
+<ul>
+<li>Release 1.09 - 13th January 2012
+<ul>
+<li>updated arc_twitter plugins</li>
+<li>fixed broken header form</li>
+</ul>
 <ul>
 <li>Release 1.08 - 03rd December 2011
 <ul>
