@@ -85,7 +85,7 @@ input#submit:hover {background-color: <txp:variable name="custom_link_color" />!
         </txp:if_category>
     </txp:if_article_list>
     <txp:if_individual_article>
-    	<txp:title /> &bull; <txp:section title="1" /> &bull; <txp:site_name />
+    	<txp:title /> &bull; <txp:site_name />
     </txp:if_individual_article>
 	<txp:else />
 <txp:site_name />: <txp:error_status />

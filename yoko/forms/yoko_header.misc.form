@@ -1,4 +1,5 @@
 <txp:aks_cache id='header'>
+<header id="branding">
 
 <txp:output_form form="yoko_mainnav" />
 
