@@ -48,8 +48,6 @@
 
 </txp:if_individual_article>
 
-<link rel="icon" href="<txp:site_url />favicon.ico" type="x-icon" />
-
 <txp:if_variable name="feedburner_name" value=''>
 <txp:feed_link flavor="atom" format="link" label="Atom" section="" />
 <txp:feed_link flavor="rss" format="link" label="RSS" section="" />
