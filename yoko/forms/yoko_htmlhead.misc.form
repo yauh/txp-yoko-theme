@@ -31,7 +31,17 @@
  src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script type="text/javascript" 
  src="<txp:site_url />tpl/yoko/assets/js/slimbox2.js"></script>
-<meta name='robots' content='index' /> 
+
+<txp:if_search>
+<meta name="robots" content="none">
+<txp:else />
+<txp:if_category>
+<meta name="robots" content="noindex, follow, noodp, noydir">
+<txp:else />
+<meta name="robots" content="index, follow, noodp, noydir">
+</txp:if_category>
+</txp:if_search>
+
 <link rel='index' title='<txp:site_name />' href='<txp:site_url />' /> 
 <meta name="generator" content="Textpattern CMS" /> 
 <link rel="canonical" href="<txp:if_individual_article><txp:permlink /><txp:else /><txp:if_section name=",default,articles"><txp:site_url /><txp:else /><txp:site_url /><txp:section /></txp:if_section></txp:if_individual_article>" />
