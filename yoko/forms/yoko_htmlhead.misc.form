@@ -12,7 +12,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
-<txp:if_individual_article><txp:smd_canonical /></txp:if_individual_article>
+<link rel="canonical" href="<txp:if_individual_article><txp:smd_canonical type="url" /><txp:else /><txp:if_section name=",default,articles"><txp:site_url /><txp:else /><txp:site_url /><txp:section /></txp:if_section></txp:if_individual_article>" />
 <link rel="home" href="<txp:site_url />" />
 
 <link rel="profile" href="http://gmpg.org/xfn/11" />
@@ -44,7 +44,6 @@
 
 <link rel='index' title='<txp:site_name />' href='<txp:site_url />' /> 
 <meta name="generator" content="Textpattern CMS" /> 
-<link rel="canonical" href="<txp:if_individual_article><txp:permlink /><txp:else /><txp:if_section name=",default,articles"><txp:site_url /><txp:else /><txp:site_url /><txp:section /></txp:if_section></txp:if_individual_article>" />
 
 <txp:if_individual_article>
 <txp:if_keywords>
