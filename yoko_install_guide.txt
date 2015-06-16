@@ -1,4 +1,4 @@
-Get and install the plugin "cxc_templates":https://github.com/perlmonkey/txp-cxc-templates/blob/master/cxc_templates_v0.4.5.txt in the Textpattern admin area
+Get and install the plugin "cxc_templates":https://github.com/yauh/txp-cxc-templates/blob/master/cxc_templates_v0.4.5.txt in the Textpattern admin area
 
 Activate the cxc_templates plugin in your admin area (click on the _no_ to set it to _yes_)
 
