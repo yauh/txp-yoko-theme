@@ -1,0 +1,40 @@
+#@public
+#@language fr-fr
+#@packid yoko
+yoko_tag_headline => Les articles ont été tagués avec
+yoko_search_results => Résultats de recherche pour:
+yoko_no_search_results => Désolé, nous n'avons pu trouver une page contenant les mots recherchés
+yoko_404_error => Désolé, mais la page que vous avez demandée n'existe pas. Essayez la boite de recherche.
+yoko_search_button => Recherche
+yoko_comment_invite => Laissez un commentaire
+yoko_comment_required => Les champs demandés sont surlignés
+yoko_textile_help => Aide de Textile
+yoko_comment_name => Nom
+yoko_comment_email => Emailyoko_comment_website => Website
+yoko_comment_message => Message
+yoko_comment_preview_headline => Prévisualiser yoko_comment_preview => Hello, ceci n'est qu'une prévisualisation. Relisez votre commentaire puis cliquez sur soumettre dès que vous l'aurez approuvé.
+yoko_read_more => Lire plus...
+yoko_filed_under => enregistré sous:
+yoko_comments_closed => commentaires fermésyoko_no_comments => Aucun commentaire
+yoko_one_comment => Commentaire
+yoko_more_comments => Commentairesyoko_tweet => Tweet
+yoko_categories => Catégories
+yoko_tags => Tags
+yoko_contact => Contact
+yoko_contact_headline => Formulaire contactyoko_contact_invite => Avez-vous des questions ou des remarques à propos de mon site ? Utilisez le formulaire ci-dessous à mon attention !yoko_contactmail_subject => Contact de
+yoko_contact_thanks => Merci, votre message a été envoyé avec succès !
+yoko_contact_name => nom
+yoko_contact_email => Email
+yoko_contact_message => Message
+yoko_category_listing => Listing catégorieyoko_nav_previouspost => Article précédent
+yoko_nav_nextpost => Article suivantyoko_nav_olderposts => Articles anciens
+yoko_nav_newerposts => Articles récentsyoko_article_by => par
+yoko_flickr_headline => Images Flickr
+yoko_recent_comments => Commentaires récents
+yoko_recent_posts => Articles récents
+yoko_social_links => Social
+yoko_archives => Archives
+yoko_blogroll => Blogroll
+yoko_search => Rechercheyoko_txp_footer => Rien n'a été pris en compte lors de la génération de la page.
+yoko_subscribe_invite => Suivez ce lien pour souscrire à l'article
+yoko_read_article => Vous pouvez lire l'article sur

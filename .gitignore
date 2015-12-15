@@ -41,25 +41,7 @@ Session.vim
 .LSOverride
 Icon
 
-# Frameworks
-# Yii
-assets/
-protected/runtime/
-themes/classic/views/
-
-# Node
-lib-cov
-*.seed
-*.log
-*.csv
-*.dat
-*.out
-*.pid
-*.gz
 
 pids
 logs
 results
-
-npm-debug.log
-node_modules
